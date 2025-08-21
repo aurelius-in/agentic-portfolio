@@ -2,7 +2,7 @@
 
 A single place to explore my production-grade, agentic AI work. Each project includes a short summary, use cases, tech stack, architecture notes, and screenshots. Perfect for quick evaluation by engineering leaders, execs, and recruiters.
 
-> Contact: oliver@reliaable.ai • LinkedIn: linkedin.com/in/oliveraellison
+> Contact: oliveraellison@gmail.com • LinkedIn: https://www.linkedin.com/in/oellison/
 
 ---
 
