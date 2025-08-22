@@ -114,9 +114,9 @@ sequenceDiagram
 
 ---
 
-## 6) Walkthrough: Core Flow and Outcomes (about 90 seconds)
+## 6) Walkthrough: Core Flow and Outcomes
 
-1. **Live view.** Show service dashboard with SLO budget and key metrics.
+1. **Live view.** Service dashboard with SLO budget and key metrics.
 2. **Anomaly detected.** A spike appears in error rate. The **Detector** flags an anomaly with score and context.
 3. **Forecast risk.** The **Forecaster** panel predicts SLO burn in 27 minutes with confidence and a small chart.
 4. **Plan proposed.** The **Planner** recommends: scale replicas + throttle noisy job + clear stuck queue. Prechecks shown inline.
@@ -125,7 +125,7 @@ sequenceDiagram
 7. **Narrative and value.** The **Explainer** generates an exec narrative with cost avoided and links to evidence.
 8. **Export.** One click to export a PDF and JSON bundle for the post-incident review.
 
-**Wow moments**
+**Outcomes**
 - Side-by-side anomaly, forecast, and proposed fix with guardrails
 - Real-time runbook execution with human-readable steps and instant rollback
 - Cost avoided calculation tied to SLO impact and rate cards
