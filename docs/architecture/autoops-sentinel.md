@@ -34,6 +34,7 @@ Agentic AIOps that ingests metrics and logs, detects anomalies, forecasts incide
 | **Orchestrator** | Route between agents and tools | All of the above | Deterministic graph execution and audit IDs |
 
 **Orchestration (Mermaid).**
+
 ```mermaid
 flowchart LR
 SRC[Metrics & Logs] --> DET[Detector]
@@ -46,15 +47,12 @@ POL -->|deny| EXP[Explainer]
 REM --> EXP
 DET --> EXP
 FRC --> EXP
-
-```mermaid
-
-
 EXP --> UI[Dashboard + Narrative + Cost Avoided]
 UI --> AUD[Audit Log
 On it. Here’s the next one-pager in the same style, ready to drop in as `docs/architecture/autoops-sentinel.md`.
 
-````markdown
+```
+
 # AutoOps Sentinel — Architecture One-Pager
 
 **Repo:** https://github.com/aurelius-in/AutoOps-Sentinel  
@@ -91,6 +89,7 @@ Agentic AIOps that ingests metrics and logs, detects anomalies, forecasts incide
 | **Orchestrator** | Route between agents and tools | All of the above | Deterministic graph execution and audit IDs |
 
 **Orchestration (Mermaid).**
+
 ```mermaid
 flowchart LR
 SRC[Metrics & Logs] --> DET[Detector]
