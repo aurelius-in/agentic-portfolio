@@ -16,7 +16,7 @@ Each project repo maintains its own assets; this portfolio mirrors known links f
 One-pagers summarize privacy, redaction, and governance per project; see individual repos for full details.
 
 **Can I get a printable summary?**  
-Use `docs/README-PRINT.md`. For a PDF, generate via any Markdown to PDF tool or a CI step.
+Use `docs/README-PRINT.md`. 
 
 **Is there a live demo?**  
 Links point to repo-level instructions. Where a live environment is not provided, walkthroughs and UI previews illustrate representative flows.
