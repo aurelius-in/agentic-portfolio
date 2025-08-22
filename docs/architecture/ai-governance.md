@@ -132,7 +132,7 @@ sequenceDiagram
 
 ---
 
-## UI Previews (GIF/PNG)
+## UI/UX Preview
 
 <p>
   <img src="https://github.com/aurelius-in/AI-Governance/raw/main/assets/screen1.png" width="49%">
