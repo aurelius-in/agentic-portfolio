@@ -114,7 +114,7 @@ sequenceDiagram
 
 ---
 
-## 6) Demo Script & Wow Moments (about 90 seconds)
+## 6) Walkthrough: Core Flow and Outcomes (about 90 seconds)
 
 1. **Live view.** Show service dashboard with SLO budget and key metrics.
 2. **Anomaly detected.** A spike appears in error rate. The **Detector** flags an anomaly with score and context.
