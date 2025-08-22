@@ -129,7 +129,7 @@ sequenceDiagram
 
 ---
 
-## UI Previews (GIF/PNG)
+## UI/UX Preview
 
 <p>
   <img src="https://github.com/aurelius-in/MindTrace/raw/main/assets/demo.gif" width="49%">
