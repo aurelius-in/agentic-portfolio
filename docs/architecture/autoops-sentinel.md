@@ -33,23 +33,19 @@ Agentic AIOps that ingests metrics and logs, detects anomalies, forecasts incide
 | **Policy** | OPA policy checks and constraints | Runbook metadata, env rules | Allowed actions, blocked steps, justifications |
 | **Orchestrator** | Route between agents and tools | All of the above | Deterministic graph execution and audit IDs |
 
-**Orchestration (Mermaid).**
-
-```mermaid
 flowchart LR
-SRC[Metrics & Logs] --> DET[Detector]
-DET --> FRC[Forecaster]
-DET --> PLN[Planner]
-FRC --> PLN
-PLN --> POL[Policy Checks]
-POL -->|allow| REM[Remediator]
-POL -->|deny| EXP[Explainer]
-REM --> EXP
-DET --> EXP
-FRC --> EXP
-EXP --> UI[Dashboard + Narrative + Cost Avoided]
-UI --> AUD[Audit Log
-On it. Here’s the next one-pager in the same style, ready to drop in as `docs/architecture/autoops-sentinel.md`.
+  SRC[Metrics & Logs] --> DET[Detector]
+  DET --> FRC[Forecaster]
+  DET --> PLN[Planner]
+  FRC --> PLN
+  PLN --> POL[Policy Checks]
+  POL -->|allow| REM[Remediator]
+  POL -->|deny| EXP[Explainer]
+  REM --> EXP
+  DET --> EXP
+  FRC --> EXP
+  EXP --> UI[Dashboard + Narrative + Cost Avoided]
+  UI --> AUD[Audit Log]
 
 ```
 
