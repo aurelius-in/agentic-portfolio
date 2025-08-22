@@ -1,0 +1,153 @@
+{
+  "owner": "aurelius-in",
+  "title": "Agentic AI Systems Showcase",
+  "contact": {
+    "email": "oliveraellison@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/oellison/"
+  },
+  "projects": [
+    {
+      "id": "health-navigator",
+      "name": "Agentic AI Health Navigator",
+      "repo": "https://github.com/aurelius-in/AI-Health-Navigator-for-Patients",
+      "summary": "Triage, provider match, personalized plans with multi-agent reasoning and memory.",
+      "stack": [
+        "FastAPI",
+        "React",
+        "TypeScript",
+        "PyTorch",
+        "PostgreSQL",
+        "Redis",
+        "ChromaDB",
+        "Kubernetes",
+        "Prometheus",
+        "Grafana"
+      ],
+      "images": [
+        "https://github.com/aurelius-in/AI-Health-Navigator-for-Patients/blob/main/assets/screen1.png",
+        "https://github.com/aurelius-in/AI-Health-Navigator-for-Patients/raw/main/assets/screen2.png",
+        "https://github.com/aurelius-in/AI-Health-Navigator-for-Patients/raw/main/assets/screen3.png"
+      ],
+      "tags": [
+        "healthcare",
+        "navigation",
+        "agentic-ai"
+      ]
+    },
+    {
+      "id": "autoops-sentinel",
+      "name": "AutoOps Sentinel",
+      "repo": "https://github.com/aurelius-in/AutoOps-Sentinel",
+      "summary": "AIOps detection, forecasting, and safe auto-remediation with exec narratives.",
+      "stack": [
+        "FastAPI",
+        "React",
+        "TypeScript",
+        "Prometheus",
+        "Grafana",
+        "GitHub Actions"
+      ],
+      "images": [
+        "https://raw.githubusercontent.com/aurelius-in/AutoOps-Sentinel/main/aostab1.gif",
+        "https://raw.githubusercontent.com/aurelius-in/AutoOps-Sentinel/main/aostab2.gif",
+        "https://raw.githubusercontent.com/aurelius-in/AutoOps-Sentinel/main/aostab3.gif"
+      ],
+      "tags": [
+        "aiops",
+        "slo",
+        "automation"
+      ]
+    },
+    {
+      "id": "claims-triage",
+      "name": "Agentic Claims Triage AI",
+      "repo": "https://github.com/aurelius-in/Claims-Triage-AI",
+      "summary": "Claims intake, classification, risk, policy evaluation, and routing with explanations.",
+      "stack": [
+        "FastAPI",
+        "React",
+        "TypeScript",
+        "PostgreSQL",
+        "Redis"
+      ],
+      "images": [
+        "https://github.com/aurelius-in/Claims-Triage-AI/raw/main/docs/images/claims-demo.gif"
+      ],
+      "tags": [
+        "insurance",
+        "healthcare",
+        "compliance"
+      ]
+    },
+    {
+      "id": "mindtrace",
+      "name": "Enterprise Wellness AI (MindTrace)",
+      "repo": "https://github.com/aurelius-in/MindTrace",
+      "summary": "Privacy-first wellness analytics, burnout risk, and recommendations.",
+      "stack": [
+        "FastAPI",
+        "React",
+        "TypeScript",
+        "PostgreSQL",
+        "Redis",
+        "ChromaDB/Pinecone"
+      ],
+      "images": [
+        "https://github.com/aurelius-in/MindTrace/raw/main/assets/demo.gif"
+      ],
+      "tags": [
+        "workforce",
+        "wellness",
+        "privacy"
+      ]
+    },
+    {
+      "id": "ai-governance",
+      "name": "AI Governance Dashboard",
+      "repo": "https://github.com/aurelius-in/AI-Governance",
+      "summary": "LLM proxy with policies-as-code, safety filters, cost controls, and routing.",
+      "stack": [
+        "FastAPI",
+        "React",
+        "TypeScript",
+        "PostgreSQL",
+        "Redis",
+        "OPA"
+      ],
+      "images": [
+        "https://github.com/aurelius-in/AI-Governance/raw/main/assets/screen1.png",
+        "https://github.com/aurelius-in/AI-Governance/raw/main/assets/screen2.png"
+      ],
+      "tags": [
+        "governance",
+        "security",
+        "routing"
+      ]
+    },
+    {
+      "id": "aida",
+      "name": "AI Document Agent (aiDa)",
+      "repo": "https://github.com/aurelius-in/Smart-Document-Bot",
+      "summary": "Document ingestion, extraction, policy checks, rationale, and export bundles.",
+      "stack": [
+        "FastAPI",
+        "React",
+        "TypeScript",
+        "PostgreSQL",
+        "Redis",
+        "ChromaDB/Pinecone"
+      ],
+      "images": [
+        "https://raw.githubusercontent.com/aurelius-in/Smart-Document-Bot/main/tab1.gif",
+        "https://raw.githubusercontent.com/aurelius-in/Smart-Document-Bot/main/tab2.gif",
+        "https://raw.githubusercontent.com/aurelius-in/Smart-Document-Bot/main/tab3.gif",
+        "https://raw.githubusercontent.com/aurelius-in/Smart-Document-Bot/main/tab4.gif"
+      ],
+      "tags": [
+        "documents",
+        "compliance",
+        "retrieval"
+      ]
+    }
+  ]
+}
