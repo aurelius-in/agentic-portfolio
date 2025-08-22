@@ -28,7 +28,7 @@ Agent‑driven decision support for insurance and healthcare claims: intake, cla
 | **Intake** | Normalize claim payloads and documents | EDI/JSON, PDFs, history | Structured claim entity graph |
 | **Classifier** | Assign claim type/severity | Intake graph, embeddings | Class label + confidence |
 | **Risk Scorer** | Assess fraud/complexity exposure | Features, signals, network | Risk score + factors |
-| **Compliance (Policy)** | Apply coverage and policy rules | Plan, policy text, OPA rules | Findings, exceptions, required docs |
+| **Compliance Policy** | Apply coverage and policy rules | Plan, policy text, OPA rules | Findings, exceptions, required docs |
 | **Evidence Retriever** | Retrieve guidelines and precedents | KB, policy, similar claims | Citations and excerpts |
 | **Router** | Route to queue or auto‑adjudication | Class, risk, compliance | Queue selection, SLAs |
 | **Explainer** | Produce human‑readable rationale | Full trace | Reasons, caveats, links |
@@ -42,7 +42,7 @@ flowchart LR
   SUB[Submission] --> INT[Intake]
   INT --> CLS[Classifier]
   INT --> RSV[Risk Scorer]
-  CLS --> CMP[Compliance (Policy)]
+  CLS --> CMP[Compliance Policy]
   RSV --> CMP
   CMP --> EVI[Evidence Retriever]
   EVI --> CMP
@@ -50,7 +50,7 @@ flowchart LR
   ROU -->|needs review| HUM[Human Reviewer]
   ROU -->|auto path| EXP[Explainer]
   HUM --> EXP
-  EXP --> PKT[Decision Packet + Audit]
+  EXP --> PKT[Decision Packet and Audit]
 ```
 
 ---
@@ -75,7 +75,7 @@ sequenceDiagram
   participant INT as Intake
   participant CLS as Classifier
   participant RSV as Risk
-  participant CMP as Compliance
+  participant CMP as Compliance Policy
   participant ROU as Router
   participant HUM as Human
   participant EXP as Explainer
@@ -126,14 +126,14 @@ sequenceDiagram
 1. Intake normalizes the claim and documents to a structured graph.  
 2. Classifier assigns claim type/severity with confidence.  
 3. Risk Scorer adds risk factors for potential special handling.  
-4. Compliance applies policy rules and records findings and exceptions.  
+4. Compliance Policy applies policy rules and records findings and exceptions.  
 5. Router selects auto‑path or a review queue based on class, risk, and policy results.  
 6. (If routed) Human Reviewer adds notes or adjustments.  
 7. Explainer produces a decision packet with rationale, citations, and an audit reference.
 
 ---
 
-## UI/UX Preview
+## UI Previews (GIF/PNG)
 
 <p>
   <img src="https://github.com/aurelius-in/Claims-Triage-AI/raw/main/docs/images/claims-demo.gif" width="49%">
