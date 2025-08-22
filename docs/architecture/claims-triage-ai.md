@@ -133,7 +133,7 @@ sequenceDiagram
 
 ---
 
-## Screenshots
+## UI/UX Preview
 
 <p>
   <img src="https://github.com/aurelius-in/Claims-Triage-AI/raw/main/docs/images/claims-demo.gif" width="49%">
