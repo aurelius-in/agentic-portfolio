@@ -24,9 +24,9 @@
         "Grafana"
       ],
       "images": [
-        "https://github.com/aurelius-in/AI-Health-Navigator-for-Patients/blob/main/assets/screen1.png",
-        "https://github.com/aurelius-in/AI-Health-Navigator-for-Patients/raw/main/assets/screen2.png",
-        "https://github.com/aurelius-in/AI-Health-Navigator-for-Patients/raw/main/assets/screen3.png"
+        "https://raw.githubusercontent.com/aurelius-in/AI-Health-Navigator-for-Patients/main/assets/screen1.png",
+        "https://raw.githubusercontent.com/aurelius-in/AI-Health-Navigator-for-Patients/main/assets/screen2.png",
+        "https://raw.githubusercontent.com/aurelius-in/AI-Health-Navigator-for-Patients/main/assets/screen3.png"
       ],
       "tags": [
         "healthcare",
