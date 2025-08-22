@@ -20,7 +20,7 @@
 - ✅ Observability (OpenTelemetry, Prometheus, Grafana) summarized
 - ✅ CI/CD steps and basic tests described
 
-### Walkthrough Readiness (Optional)
+### Walkthrough Readiness
 - ✅ Representative walkthrough is provided
 - ✅ UI previews (GIF/PNG) align with the walkthrough
 - ✅ Exportable artifacts (PDF/JSON) are referenced
