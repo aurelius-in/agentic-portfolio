@@ -25,7 +25,6 @@
     .tag { font-size:0.75rem; background:#0c2436; color:#9fd0ff; border:1px solid #15354b; padding:4px 8px; border-radius:999px; }
     .repo { margin-top:auto; font-size:0.9rem; }
     .footer { margin-top:26px; opacity:0.75; font-size:0.9rem; }
-    .note { background:#0f1520; border:1px solid #213047; padding:10px 12px; border-radius:10px; margin-bottom:16px; color:#c8d8e6; }
   </style>
 </head>
 <body>
@@ -34,11 +33,6 @@
       <div class="title">Agentic AI Systems Showcase</div>
       <div class="meta" id="contact"></div>
     </header>
-
-    <div class="note">
-      This page reads <code>docs/portfolio.json</code>. If a project lists multiple images, the preview rotates through them. 
-      Tip: set <code>?interval=6000</code> in the URL to adjust the rotation speed (ms).
-    </div>
 
     <section class="grid" id="grid" aria-live="polite"></section>
 
@@ -53,7 +47,6 @@
 
     function normalizeGithubImage(url) {
       if (!url || typeof url !== 'string') return url;
-      // Convert https://github.com/user/repo/blob/branch/path to raw.githubusercontent URL
       const m = url.match(/^https?:\/\/github\.com\/([^\/]+)\/([^\/]+)\/blob\/([^\/]+)\/(.+)$/);
       if (m) {
         const [, user, repo, branch, path] = m;
