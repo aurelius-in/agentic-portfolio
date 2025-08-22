@@ -1,7 +1,8 @@
 # Agentic AI Health Navigator — Architecture One-Pager
 
-**Repo:** https://github.com/aurelius-in/AI-Health-Navigator-for-Patients  
-**Contact:** oliveraellison@gmail.com • LinkedIn: https://www.linkedin.com/in/oellison/
+#### **Repo:** https://github.com/aurelius-in/AI-Health-Navigator-for-Patients  
+
+#### **Contact:** oliveraellison@gmail.com • LinkedIn: https://www.linkedin.com/in/oellison/
 
 A next-gen healthcare navigation platform that performs intelligent triage, provider matching, and personalized care recommendations using a multi-agent system with memory (episodic, semantic, long-term). Built to be demonstrably safe, explainable, and production-ready.
 
