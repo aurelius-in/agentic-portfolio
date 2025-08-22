@@ -5,6 +5,9 @@ A single place to explore my production-grade agentic AI work. Each project incl
 Contact: oliveraellison@gmail.com • LinkedIn: https://www.linkedin.com/in/oellison/
 
 ---
+> **Live Portfolio Grid:** https://aurelius-in.github.io/agentic-portfolio/  
+> **Source of truth:** [docs/portfolio.json](docs/portfolio.json)
+---
 
 ## Contents
 - [Projects](#projects)
