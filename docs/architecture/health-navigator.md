@@ -58,23 +58,23 @@ UI --> AUD[Audit Log]
 
 ## 3) Data Flow & Storage
 
-**APIs:** FastAPI services (/intake, /triage, /plan, /providers, /benefits, /explain)
+- **APIs:** FastAPI services (/intake, /triage, /plan, /providers, /benefits, /explain)
 
-**Frontend:** React + TypeScript SPA (session-scoped state, optimistic UI)
+- **Frontend:** React + TypeScript SPA (session-scoped state, optimistic UI)
 
 ### State & stores
 
-**PostgreSQL:** cases, user profiles (scoped), audit trails, provider directory
+- **PostgreSQL:** cases, user profiles (scoped), audit trails, provider directory
 
-**Redis:** agent queues, short-lived sessions, rate limits
+- **Redis:** agent queues, short-lived sessions, rate limits
 
-**Vector DB (ChromaDB):** policy/clinical embeddings for grounded retrieval
+- **Vector DB (ChromaDB):** policy/clinical embeddings for grounded retrieval
 
-**Object store (optional):** artifacts (PDF plan, exports)
+- **Object store (optional):** artifacts (PDF plan, exports)
 
-**Memory model:** episodic (per session), semantic (KB), long-term (opt-in user history)
+- **Memory model:** episodic (per session), semantic (KB), long-term (opt-in user history)
 
-**Telemetry:** OpenTelemetry export → Prometheus metrics → Grafana dashboards
+- **Telemetry:** OpenTelemetry export → Prometheus metrics → Grafana dashboards
 
 ### Sequence (triage request).
 
