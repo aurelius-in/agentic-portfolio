@@ -19,4 +19,4 @@ One-pagers summarize privacy, redaction, and governance per project; see individ
 Use `docs/README-PRINT.md`. 
 
 **Is there a live demo?**  
-Links point to repo-level instructions. Walkthroughs and UI previews illustrate representative flows and all software may also be run in explored in live environments via instructions provided in each repository's README.md.
+Links point to repo-level instructions. Walkthroughs and UI previews illustrate representative flows and all software may also be easily run to explore UI/UX in live environments locally via clear instructions provided in each repository's README.md.
