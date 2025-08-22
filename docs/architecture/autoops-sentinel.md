@@ -1,7 +1,8 @@
 # AutoOps Sentinel — Architecture One-Pager
 
-**Repo:** https://github.com/aurelius-in/AutoOps-Sentinel  
-**Contact:** oliveraellison@gmail.com • LinkedIn: https://www.linkedin.com/in/oellison/
+##### **Repo:** https://github.com/aurelius-in/AutoOps-Sentinel  
+
+##### **Contact:** oliveraellison@gmail.com • LinkedIn: https://www.linkedin.com/in/oellison/
 
 Agentic AIOps that ingests metrics and logs, detects anomalies, forecasts incident risk, and executes safe auto-remediation via policy-driven runbooks. Includes exec-ready narratives that explain actions and quantify cost avoided.
 
