@@ -149,28 +149,35 @@
         "retrieval"
       ]
     },
-{
-  "id": "high-volume-recruiter",
-  "name": "High-Volume Recruiter Agent",
-  "repo": "https://github.com/aurelius-in/high-volume-recruiter-ai-agent",
-  "summary": "End-to-end recruiter flow (outreach → consent → screening → scheduling → ATS) with a live ops UI, KPIs, and a signed, replayable audit trail. Demo/offline or real mode via adapters; capacity/SLA analytics and policy-checked messaging.",
-  "stack": [
-    "Python 3.11",
-    "FastAPI",
-    "React",
-    "TypeScript",
-    "Vite",
-    "Material UI",
-    "Recharts",
-    "SSE",
-    "Docker",
-    "Pytest"
-  ],
-  "images": [
-    "https://github.com/aurelius-in/high-volume-recruiter-ai-agent/raw/main/hiretab1.gif",
-    "https://github.com/aurelius-in/high-volume-recruiter-ai-agent/raw/main/hiretab2.gif",
-    "https://github.com/aurelius-in/high-volume-recruiter-ai-agent/raw/main/hiretab3.gif"
-  ],
-  "tags": ["recruiting", "agentic-ai", "governance", "audit", "SSE"]
+    {
+      "id": "high-volume-recruiter",
+      "name": "High-Volume Recruiter Agent",
+      "repo": "https://github.com/aurelius-in/high-volume-recruiter-ai-agent",
+      "summary": "End-to-end recruiter flow (outreach → consent → screening → scheduling → ATS) with a live ops UI, KPIs, and a signed, replayable audit trail. Demo/offline or real mode via adapters; capacity/SLA analytics and policy-checked messaging.",
+      "stack": [
+        "Python 3.11",
+        "FastAPI",
+        "React",
+        "TypeScript",
+        "Vite",
+        "Material UI",
+        "Recharts",
+        "SSE",
+        "Docker",
+        "Pytest"
+      ],
+      "images": [
+        "https://github.com/aurelius-in/high-volume-recruiter-ai-agent/raw/main/hiretab1.gif",
+        "https://github.com/aurelius-in/high-volume-recruiter-ai-agent/raw/main/hiretab2.gif",
+        "https://github.com/aurelius-in/high-volume-recruiter-ai-agent/raw/main/hiretab3.gif"
+      ],
+      "tags": [
+        "recruiting",
+        "agentic-ai",
+        "governance",
+        "audit",
+        "SSE"
+      ]
+    }
+  ]
 }
-
