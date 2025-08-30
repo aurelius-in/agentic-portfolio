@@ -127,6 +127,31 @@ Enterprise wellness platform with five agents (Companion, Recommendation, Risk D
 
 ---
 
+### High-Volume Recruiter Agent
+
+Repo: https://github.com/aurelius-in/high-volume-recruiter-ai-agent
+
+Summary  
+End-to-end recruiter flow (outreach → consent → screening → scheduling → ATS sync) with a live ops UI, real-time KPIs, and a signed, replayable audit trail. Runs offline for demos or in “real” mode via adapters, with capacity/SLA analytics and policy-checked messaging.
+
+Use cases
+- High-volume roles (retail, logistics, CX): scale outreach/screening/scheduling.
+- Staffing & RPO teams: live ops console with agent assist and policy guardrails.
+- Compliance & audit: signed ledger + replay for verification and incident review.
+
+Tech stack
+- Backend: Python 3.11, FastAPI, Uvicorn; SSE endpoints (`/events/stream`, `/chat/stream`); signed audit chain.
+- Frontend: React + Vite + Material UI, Recharts, i18n (EN/AR/ZH), dark mode; “Ask” panel with streaming.
+- Infra/QA: Docker + Render blueprint; Postgres-ready seams; pytest; structured logs + demo PII redaction.
+
+Screenshots
+
+![Tab 1](https://github.com/aurelius-in/high-volume-recruiter-ai-agent/raw/main/hiretab1.gif)
+![Tab 2](https://github.com/aurelius-in/high-volume-recruiter-ai-agent/raw/main/hiretab2.gif)
+![Tab 3](https://github.com/aurelius-in/high-volume-recruiter-ai-agent/raw/main/hiretab3.gif)
+
+---
+
 ### AI Governance Dashboard
 **Repo:** https://github.com/aurelius-in/AI-Governance
 
