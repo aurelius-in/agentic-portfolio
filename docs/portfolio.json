@@ -149,27 +149,28 @@
         "retrieval"
       ]
     },
-    {
-  "title": "High-Volume Recruiter Agent",
+{
+  "id": "high-volume-recruiter",
+  "name": "High-Volume Recruiter Agent",
   "repo": "https://github.com/aurelius-in/high-volume-recruiter-ai-agent",
-  "summary": "End-to-end recruiter flow (outreach→consent→screen→schedule→ATS) with a live ops UI, KPIs, and a signed, replayable audit trail. Demo/offline or real-mode via adapters; capacity/SLA analytics and policy-checked messaging.",
-  "use_cases": [
-    "High-volume hiring: retail, logistics, CX",
-    "Staffing & RPO: ops console + agent assist",
-    "Compliance & audit: signed ledger + replay"
+  "summary": "End-to-end recruiter flow (outreach → consent → screening → scheduling → ATS) with a live ops UI, KPIs, and a signed, replayable audit trail. Demo/offline or real mode via adapters; capacity/SLA analytics and policy-checked messaging.",
+  "stack": [
+    "Python 3.11",
+    "FastAPI",
+    "React",
+    "TypeScript",
+    "Vite",
+    "Material UI",
+    "Recharts",
+    "SSE",
+    "Docker",
+    "Pytest"
   ],
-  "stack": {
-    "backend": "Python 3.11, FastAPI, SSE, signed audit chain",
-    "frontend": "React, Vite, Material UI, Recharts, i18n (EN/AR/ZH), dark mode",
-    "infra": "Docker, Render blueprint; Postgres-ready seams; pytest"
-  },
   "images": [
     "https://github.com/aurelius-in/high-volume-recruiter-ai-agent/raw/main/hiretab1.gif",
     "https://github.com/aurelius-in/high-volume-recruiter-ai-agent/raw/main/hiretab2.gif",
     "https://github.com/aurelius-in/high-volume-recruiter-ai-agent/raw/main/hiretab3.gif"
   ],
-  "tags": ["recruiting", "agentic", "governance", "audit", "SSE"]
+  "tags": ["recruiting", "agentic-ai", "governance", "audit", "SSE"]
 }
 
-  ]
-}
