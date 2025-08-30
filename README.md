@@ -15,6 +15,8 @@ Contact: oliveraellison@gmail.com • LinkedIn: https://www.linkedin.com/in/oell
   - [AutoOps Sentinel](#autoops-sentinel)
   - [Agentic Claims Triage AI](#agentic-claims-triage-ai)
   - [Enterprise Wellness AI (MindTrace)](#enterprise-wellness-ai-mindtrace)
+  - [High-Volume Recruiter Agent (Hire Falcon)](#high-volume-recruiter-agent)
+
   - [AI Governance Dashboard](#ai-governance-dashboard)
   - [AI Document Agent (aiDa)](#ai-document-agent-aida)
 - [Architecture One-Pagers](#architecture-one-pagers)
