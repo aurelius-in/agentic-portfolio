@@ -38,8 +38,8 @@
   "id": "museagent",
   "name": "MuseAgent",
   "repo": "https://github.com/aurelius-in/MuseAgent",
-  "summary": "Multi-agent music analysis and recommendation tool that ingests tracks, extracts spectral features, generates embeddings, tags mood/genre, and serves nearest-neighbor results with visualizations.",
-  "stack": [
+  "summary": "A modular multi-agent music intelligence platform that ingests tracks, extracts spectral features, generates embeddings, tags mood/genre/instrumentation, delivers explainable recommendations with visualizations, exports branded PDF reports, and includes optional enrichment and AI-powered music generation.",
+   "stack": [
     "Python 3.11",
     "FastAPI",
     "React",
