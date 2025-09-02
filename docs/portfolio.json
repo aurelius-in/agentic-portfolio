@@ -35,6 +35,32 @@
       ]
     },
     {
+  "id": "museagent",
+  "name": "MuseAgent",
+  "repo": "https://github.com/aurelius-in/MuseAgent",
+  "summary": "Multi-agent music analysis and recommendation tool that ingests tracks, extracts spectral features, generates embeddings, tags mood/genre, and serves nearest-neighbor results with visualizations.",
+  "stack": [
+    "Python 3.11",
+    "FastAPI",
+    "React",
+    "TypeScript",
+    "Material UI",
+    "Librosa",
+    "scikit-learn",
+    "Docker"
+  ],
+  "images": [
+    "https://github.com/aurelius-in/MuseAgent/raw/main/assets/ma-logo.png"
+  ],
+  "tags": [
+    "music",
+    "recommendation",
+    "agentic-ai",
+    "embeddings",
+    "visualization"
+  ]
+},
+    {
       "id": "autoops-sentinel",
       "name": "AutoOps Sentinel",
       "repo": "https://github.com/aurelius-in/AutoOps-Sentinel",
