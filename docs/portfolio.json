@@ -188,8 +188,8 @@
     "OpenTelemetry"
   ],
   "images": [
-    "https://github.com/aurelius-in/adops-flightdeck-multi-agent/raw/main/assets/demo.gif"
-  ],
+  "https://raw.githubusercontent.com/aurelius-in/adops-flightdeck-multi-agent/main/assets/adops-demo.gif"
+],
   "tags": [
     "adops",
     "agentic-ai",
