@@ -242,24 +242,15 @@ Production-grade multi-agent AdOps Flightdeck that orchestrates AI agents for pl
 ---
 
 ### Perception Lab
+**Repo:** https://github.com/aurelius-in/perception-lab  
 
-**Repo:** [https://github.com/aurelius-in/perception-lab](https://github.com/aurelius-in/perception-lab)
-
-**Summary**
+**Summary**  
 Interactive environment for exploring perception scenarios, running detection and fusion pipelines, monitoring performance metrics, and exporting evaluation reports.
 
-**Screenshots**
-
+**Screenshots**  
 <p>
   <img src="https://raw.githubusercontent.com/aurelius-in/perception-lab/main/assets/detect-ani.gif" width="49%">
 </p>
-
----
-
-## Architecture One-Pagers
-
-*(keep as in your current README)*
-
 
 ---
 
