@@ -35,6 +35,29 @@
       ]
     },
     {
+  "id": "perception-lab",
+  "name": "Perception Lab",
+  "repo": "https://github.com/aurelius-in/perception-lab",
+  "summary": "Interactive environment for exploring perception scenarios, running detection and fusion pipelines, monitoring performance metrics, and exporting evaluation reports.",
+  "stack": [
+    "React",
+    "TypeScript",
+    "Material UI",
+    "FastAPI",
+    "Python 3.11",
+    "Docker"
+  ],
+  "images": [
+    "https://raw.githubusercontent.com/aurelius-in/perception-lab/main/assets/detect-ani.gif"
+  ],
+  "tags": [
+    "perception",
+    "multi-agent",
+    "evaluation",
+    "visualization"
+  ]
+},
+    {
   "id": "museagent",
   "name": "MuseAgent",
   "repo": "https://github.com/aurelius-in/MuseAgent",
