@@ -7,21 +7,26 @@ Contact: oliveraellison@gmail.com • LinkedIn: https://www.linkedin.com/in/oell
 ---
 > **Live Portfolio Grid:** https://aurelius-in.github.io/agentic-portfolio/  
 > **Source of truth:** [docs/portfolio.json](docs/portfolio.json)
+
 ---
 
 ## Contents
-- [Projects](#projects)
-  - [Agentic AI Health Navigator](#agentic-ai-health-navigator)
-  - [AutoOps Sentinel](#autoops-sentinel)
-  - [Agentic Claims Triage AI](#agentic-claims-triage-ai)
-  - [Enterprise Wellness AI (MindTrace)](#enterprise-wellness-ai-mindtrace)
-  - [High-Volume Recruiter Agent (Hire Falcon)](#high-volume-recruiter-agent)
 
-  - [AI Governance Dashboard](#ai-governance-dashboard)
-  - [AI Document Agent (aiDa)](#ai-document-agent-aida)
-- [Architecture One-Pagers](#architecture-one-pagers)
-- [Demo Matrix](#demo-matrix)
-- [License](#license)
+* [Projects](#projects)
+
+  * [Agentic AI Health Navigator](#agentic-ai-health-navigator)
+  * [AutoOps Sentinel](#autoops-sentinel)
+  * [Agentic Claims Triage AI](#agentic-claims-triage-ai)
+  * [Enterprise Wellness AI (MindTrace)](#enterprise-wellness-ai-mindtrace)
+  * [High-Volume Recruiter Agent (Hire Falcon)](#high-volume-recruiter-agent-hire-falcon)
+  * [AI Governance Dashboard](#ai-governance-dashboard)
+  * [AI Document Agent (aiDa)](#ai-document-agent-aida)
+  * [MuseAgent](#museagent)
+  * [AdOps Flightdeck](#adops-flightdeck)
+  * [Perception Lab](#perception-lab)
+* [Architecture One-Pagers](#architecture-one-pagers)
+* [Demo Matrix](#demo-matrix)
+* [License](#license)
 
 ---
 
@@ -235,25 +240,6 @@ Contact: **[oliveraellison@gmail.com](mailto:oliveraellison@gmail.com)** • [Li
 > **Live Portfolio Grid:** [https://aurelius-in.github.io/agentic-portfolio/](https://aurelius-in.github.io/agentic-portfolio/)
 > **Source of truth:** [docs/portfolio.json](docs/portfolio.json)
 
----
-
-## Contents
-
-* [Projects](#projects)
-
-  * [Agentic AI Health Navigator](#agentic-ai-health-navigator)
-  * [AutoOps Sentinel](#autoops-sentinel)
-  * [Agentic Claims Triage AI](#agentic-claims-triage-ai)
-  * [Enterprise Wellness AI (MindTrace)](#enterprise-wellness-ai-mindtrace)
-  * [High-Volume Recruiter Agent (Hire Falcon)](#high-volume-recruiter-agent-hire-falcon)
-  * [AI Governance Dashboard](#ai-governance-dashboard)
-  * [AI Document Agent (aiDa)](#ai-document-agent-aida)
-  * [MuseAgent](#museagent)
-  * [AdOps Flightdeck](#adops-flightdeck)
-  * [Perception Lab](#perception-lab)
-* [Architecture One-Pagers](#architecture-one-pagers)
-* [Demo Matrix](#demo-matrix)
-* [License](#license)
 
 ---
 
