@@ -236,9 +236,8 @@ Production-grade multi-agent AdOps Flightdeck that orchestrates AI agents for pl
 **Screenshots**
 
 <p>
-  <img src="https://raw.githubusercontent.com/aurelius-in/adops-flightdeck-multi-agent/main/assets/adops-demo.gif" width="49%">
+<img src="https://github.com/aurelius-in/perception-lab/blob/main/assets/detect-ani.gif?raw=1" width="49%">
 </p>
-
 ---
 
 ### Perception Lab
@@ -249,7 +248,8 @@ Interactive environment for exploring perception scenarios, running detection an
 
 **Screenshots**  
 <p>
-  <img src="https://raw.githubusercontent.com/aurelius-in/perception-lab/main/assets/detect-ani.gif" width="49%">
+  <img src="https://raw.githubusercontent.com/aurelius-in/perception-lab/main/assets/detect-ani.gif" 
+   
 </p>
 
 ---
