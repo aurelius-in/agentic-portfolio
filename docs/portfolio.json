@@ -47,9 +47,9 @@
     "Python 3.11",
     "Docker"
   ],
-  "images": [
-    "https://raw.githubusercontent.com/aurelius-in/perception-lab/main/assets/detect-ani.gif"
-  ],
+"images": [
+  "https://raw.githubusercontent.com/aurelius-in/perception-lab/main/assets/detect-ani.gif"
+],
   "tags": [
     "perception",
     "multi-agent",
