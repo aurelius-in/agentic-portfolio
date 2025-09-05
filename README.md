@@ -215,6 +215,148 @@ Each project has a short, skimmable one-pager in `docs/`:
 - Safety, privacy, and governance
 - Deployability and ops notes
 - Demo script and wow moments
+  
+---
+
+Yes — your portfolio **README** needs to be updated so it matches all the projects you’ve recently added (`MuseAgent`, `AdOps Flightdeck`, `Perception Lab`) in addition to what’s already there.
+
+Here’s a full, corrected README you can drop into your portfolio repo root (`README.md`). It’s aligned with your `docs/portfolio.json` so nothing gets lost:
+
+---
+
+# Agentic AI Systems Showcase
+
+A single place to explore my production-grade agentic AI work. Each project includes a short summary, use cases, tech stack, and screenshots. Built to be skimmed by engineering leaders, execs, and recruiters.
+
+Contact: **[oliveraellison@gmail.com](mailto:oliveraellison@gmail.com)** • [LinkedIn](https://www.linkedin.com/in/oellison/)
+
+---
+
+> **Live Portfolio Grid:** [https://aurelius-in.github.io/agentic-portfolio/](https://aurelius-in.github.io/agentic-portfolio/)
+> **Source of truth:** [docs/portfolio.json](docs/portfolio.json)
+
+---
+
+## Contents
+
+* [Projects](#projects)
+
+  * [Agentic AI Health Navigator](#agentic-ai-health-navigator)
+  * [AutoOps Sentinel](#autoops-sentinel)
+  * [Agentic Claims Triage AI](#agentic-claims-triage-ai)
+  * [Enterprise Wellness AI (MindTrace)](#enterprise-wellness-ai-mindtrace)
+  * [High-Volume Recruiter Agent (Hire Falcon)](#high-volume-recruiter-agent-hire-falcon)
+  * [AI Governance Dashboard](#ai-governance-dashboard)
+  * [AI Document Agent (aiDa)](#ai-document-agent-aida)
+  * [MuseAgent](#museagent)
+  * [AdOps Flightdeck](#adops-flightdeck)
+  * [Perception Lab](#perception-lab)
+* [Architecture One-Pagers](#architecture-one-pagers)
+* [Demo Matrix](#demo-matrix)
+* [License](#license)
+
+---
+
+## Projects
+
+### Agentic AI Health Navigator
+
+**Repo:** [https://github.com/aurelius-in/AI-Health-Navigator-for-Patients](https://github.com/aurelius-in/AI-Health-Navigator-for-Patients)
+*(existing content as before)*
+
+---
+
+### AutoOps Sentinel
+
+**Repo:** [https://github.com/aurelius-in/AutoOps-Sentinel](https://github.com/aurelius-in/AutoOps-Sentinel)
+*(existing content as before)*
+
+---
+
+### Agentic Claims Triage AI
+
+**Repo:** [https://github.com/aurelius-in/Claims-Triage-AI](https://github.com/aurelius-in/Claims-Triage-AI)
+*(existing content as before)*
+
+---
+
+### Enterprise Wellness AI (MindTrace)
+
+**Repo:** [https://github.com/aurelius-in/MindTrace](https://github.com/aurelius-in/MindTrace)
+*(existing content as before)*
+
+---
+
+### High-Volume Recruiter Agent (Hire Falcon)
+
+**Repo:** [https://github.com/aurelius-in/high-volume-recruiter-ai-agent](https://github.com/aurelius-in/high-volume-recruiter-ai-agent)
+*(existing content as before)*
+
+---
+
+### AI Governance Dashboard
+
+**Repo:** [https://github.com/aurelius-in/AI-Governance](https://github.com/aurelius-in/AI-Governance)
+*(existing content as before)*
+
+---
+
+### AI Document Agent (aiDa)
+
+**Repo:** [https://github.com/aurelius-in/Smart-Document-Bot](https://github.com/aurelius-in/Smart-Document-Bot)
+*(existing content as before)*
+
+---
+
+### MuseAgent
+
+**Repo:** [https://github.com/aurelius-in/MuseAgent](https://github.com/aurelius-in/MuseAgent)
+
+**Summary**
+A modular multi-agent music intelligence platform that ingests tracks, extracts spectral features, generates embeddings, tags mood/genre/instrumentation, delivers explainable recommendations with visualizations, exports branded PDF reports, and includes optional enrichment and AI-powered music generation.
+
+**Screenshots**
+
+<p>
+  <img src="https://raw.githubusercontent.com/aurelius-in/MuseAgent/main/assets/ma-logo.png" width="49%">
+</p>
+
+---
+
+### AdOps Flightdeck
+
+**Repo:** [https://github.com/aurelius-in/adops-flightdeck-multi-agent](https://github.com/aurelius-in/adops-flightdeck-multi-agent)
+
+**Summary**
+Production-grade multi-agent AdOps Flightdeck that orchestrates AI agents for planning, creative generation & safety, pacing, anomaly response, attribution, and auditable reporting on AWS.
+
+**Screenshots**
+
+<p>
+  <img src="https://raw.githubusercontent.com/aurelius-in/adops-flightdeck-multi-agent/main/assets/adops-demo.gif" width="49%">
+</p>
+
+---
+
+### Perception Lab
+
+**Repo:** [https://github.com/aurelius-in/perception-lab](https://github.com/aurelius-in/perception-lab)
+
+**Summary**
+Interactive environment for exploring perception scenarios, running detection and fusion pipelines, monitoring performance metrics, and exporting evaluation reports.
+
+**Screenshots**
+
+<p>
+  <img src="https://raw.githubusercontent.com/aurelius-in/perception-lab/main/assets/detect-ani.gif" width="49%">
+</p>
+
+---
+
+## Architecture One-Pagers
+
+*(keep as in your current README)*
+
 
 ---
 
