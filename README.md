@@ -211,89 +211,6 @@ Multi-agent document analysis for regulatory compliance and business intelligenc
 
 ---
 
-## Architecture One-Pagers
-
-Each project has a short, skimmable one-pager in `docs/`:
-- Problem and business value
-- Agent architecture and orchestration
-- Data flow and storage
-- Safety, privacy, and governance
-- Deployability and ops notes
-- Demo script and wow moments
-  
----
-
-Yes — your portfolio **README** needs to be updated so it matches all the projects you’ve recently added (`MuseAgent`, `AdOps Flightdeck`, `Perception Lab`) in addition to what’s already there.
-
-Here’s a full, corrected README you can drop into your portfolio repo root (`README.md`). It’s aligned with your `docs/portfolio.json` so nothing gets lost:
-
----
-
-# Agentic AI Systems Showcase
-
-A single place to explore my production-grade agentic AI work. Each project includes a short summary, use cases, tech stack, and screenshots. Built to be skimmed by engineering leaders, execs, and recruiters.
-
-Contact: **[oliveraellison@gmail.com](mailto:oliveraellison@gmail.com)** • [LinkedIn](https://www.linkedin.com/in/oellison/)
-
----
-
-> **Live Portfolio Grid:** [https://aurelius-in.github.io/agentic-portfolio/](https://aurelius-in.github.io/agentic-portfolio/)
-> **Source of truth:** [docs/portfolio.json](docs/portfolio.json)
-
-
----
-
-## Projects
-
-### Agentic AI Health Navigator
-
-**Repo:** [https://github.com/aurelius-in/AI-Health-Navigator-for-Patients](https://github.com/aurelius-in/AI-Health-Navigator-for-Patients)
-*(existing content as before)*
-
----
-
-### AutoOps Sentinel
-
-**Repo:** [https://github.com/aurelius-in/AutoOps-Sentinel](https://github.com/aurelius-in/AutoOps-Sentinel)
-*(existing content as before)*
-
----
-
-### Agentic Claims Triage AI
-
-**Repo:** [https://github.com/aurelius-in/Claims-Triage-AI](https://github.com/aurelius-in/Claims-Triage-AI)
-*(existing content as before)*
-
----
-
-### Enterprise Wellness AI (MindTrace)
-
-**Repo:** [https://github.com/aurelius-in/MindTrace](https://github.com/aurelius-in/MindTrace)
-*(existing content as before)*
-
----
-
-### High-Volume Recruiter Agent (Hire Falcon)
-
-**Repo:** [https://github.com/aurelius-in/high-volume-recruiter-ai-agent](https://github.com/aurelius-in/high-volume-recruiter-ai-agent)
-*(existing content as before)*
-
----
-
-### AI Governance Dashboard
-
-**Repo:** [https://github.com/aurelius-in/AI-Governance](https://github.com/aurelius-in/AI-Governance)
-*(existing content as before)*
-
----
-
-### AI Document Agent (aiDa)
-
-**Repo:** [https://github.com/aurelius-in/Smart-Document-Bot](https://github.com/aurelius-in/Smart-Document-Bot)
-*(existing content as before)*
-
----
-
 ### MuseAgent
 
 **Repo:** [https://github.com/aurelius-in/MuseAgent](https://github.com/aurelius-in/MuseAgent)
@@ -354,8 +271,13 @@ Interactive environment for exploring perception scenarios, running detection an
 | AutoOps Sentinel | Detector, Forecaster, Remediator, Explainer | Z-score, IsolationForest, MAD, Prophet | Runbooks, RBAC, CI/CD, Slack and Teams | React/MUI |
 | Claims Triage | Classifier, Risk, Router, Compliance, Support | XGBoost+SHAP, retrieval, OPA | Audit, PII redaction, policies-as-code | React/TS |
 | MindTrace | Companion, Recommender, Risk, Analytics, Privacy | Sentiment and risk models, DP analytics | HIPAA, GDPR, SOC2, OPA | React/TS |
+| High-Volume Recruiter (Hire Falcon) | Outreach, Consent, Qualifier, Scheduler, ATS Sync | Policy checks, SSE streaming, multilingual i18n | Signed audit ledger, replay, SLA heatmaps | React/Vite/MUI |
 | AI Governance | Proxy, Policy, Safety, Cost | Guardrails, OPA, usage telemetry | Cost and safety enforcement | React |
 | aiDa | Orchestrator plus task agents | NER, QA, compare, translate | Audit, OpenTelemetry | React/TS |
+| MuseAgent | Ingest, Feature Extractor, Embedder, Tagger, Generator | MFCC/mel/chroma features, CLAP/OpenL3 embeddings, RAG, music generation | Deterministic demo mode, Dockerized, eval reports | React/TS |
+| AdOps Flightdeck | Planner, Creative QA, Pacing, Anomaly, Attribution, Reporter | LangGraphJS orchestration, Bedrock models, anomaly detectors | AWS-native, OpenTelemetry, auditable reporting | React/TS |
+| Perception Lab | Detector, Fusion, Monitor, Evaluator | CV + sensor fusion pipelines, metrics and evaluation | Audit-ready exports, Docker infra | React/TS |
+
 
 ---
 
