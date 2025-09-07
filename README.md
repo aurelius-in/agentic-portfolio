@@ -1,10 +1,12 @@
+
 # Agentic AI Systems Showcase
 
 A single place to explore my production-grade agentic AI work. Each project includes a short summary, use cases, tech stack, and screenshots. Built to be skimmed by engineering leaders, execs, and recruiters.
 
-Contact: oliveraellison@gmail.com • LinkedIn: https://www.linkedin.com/in/oellison/
+Contact: **oliveraellison@gmail.com** • [LinkedIn](https://www.linkedin.com/in/oellison/)
 
 ---
+
 > **Live Portfolio Grid:** https://aurelius-in.github.io/agentic-portfolio/  
 > **Source of truth:** [docs/portfolio.json](docs/portfolio.json)
 
@@ -13,7 +15,6 @@ Contact: oliveraellison@gmail.com • LinkedIn: https://www.linkedin.com/in/oell
 ## Contents
 
 * [Projects](#projects)
-
   * [Agentic AI Health Navigator](#agentic-ai-health-navigator)
   * [AutoOps Sentinel](#autoops-sentinel)
   * [Agentic Claims Triage AI](#agentic-claims-triage-ai)
@@ -23,6 +24,7 @@ Contact: oliveraellison@gmail.com • LinkedIn: https://www.linkedin.com/in/oell
   * [AI Document Agent (aiDa)](#ai-document-agent-aida)
   * [MuseAgent](#museagent)
   * [AdOps Flightdeck](#adops-flightdeck)
+  * [EdgeSight QA](#edgesight-qa)
   * [Perception Lab](#perception-lab)
 * [Architecture One-Pagers](#architecture-one-pagers)
 * [Demo Matrix](#demo-matrix)
@@ -50,11 +52,11 @@ Healthcare navigation with intelligent triage, provider matching, and personaliz
 
 **Screenshots**
 <p>
-  <img src="https://github.com/aurelius-in/AI-Health-Navigator-for-Patients/blob/main/assets/screen1.png" width="49%">
-  <img src="https://github.com/aurelius-in/AI-Health-Navigator-for-Patients/raw/main/assets/screen2.png" width="49%">
+  <img src="https://raw.githubusercontent.com/aurelius-in/AI-Health-Navigator-for-Patients/main/assets/screen1.png" width="49%">
+  <img src="https://raw.githubusercontent.com/aurelius-in/AI-Health-Navigator-for-Patients/main/assets/screen2.png" width="49%">
 </p>
 <p>
-  <img src="https://github.com/aurelius-in/AI-Health-Navigator-for-Patients/raw/main/assets/screen3.png" width="49%">
+  <img src="https://raw.githubusercontent.com/aurelius-in/AI-Health-Navigator-for-Patients/main/assets/screen3.png" width="49%">
 </p>
 
 ---
@@ -105,7 +107,7 @@ Agent-driven decision support for claims classification, risk scoring, routing, 
 
 **Screenshots**
 <p>
-  <img src="https://github.com/aurelius-in/Claims-Triage-AI/raw/main/docs/images/claims-demo.gif" width="49%">
+  <img src="https://raw.githubusercontent.com/aurelius-in/Claims-Triage-AI/main/docs/images/claims-demo.gif" width="49%">
 </p>
 
 ---
@@ -129,33 +131,33 @@ Enterprise wellness platform with five agents (Companion, Recommendation, Risk D
 
 **Screenshots**
 <p>
-  <img src="https://github.com/aurelius-in/MindTrace/raw/main/assets/demo.gif" width="49%">
+  <img src="https://raw.githubusercontent.com/aurelius-in/MindTrace/main/assets/demo.gif" width="49%">
 </p>
 
 ---
 
-### High-Volume Recruiter Agent
+### High-Volume Recruiter Agent (Hire Falcon)
 
-Repo: https://github.com/aurelius-in/high-volume-recruiter-ai-agent
+**Repo:** https://github.com/aurelius-in/high-volume-recruiter-ai-agent
 
-Summary  
-End-to-end recruiter flow (outreach → consent → screening → scheduling → ATS sync) with a live ops UI, real-time KPIs, and a signed, replayable audit trail. Runs offline for demos or in “real” mode via adapters, with capacity/SLA analytics and policy-checked messaging.
+**Summary**  
+End-to-end recruiter flow (outreach → consent → screening → scheduling → ATS sync) with a live ops UI, real-time KPIs, and a signed, replayable audit trail. Runs offline for demos or in real mode via adapters, with capacity/SLA analytics and policy-checked messaging.
 
-Use cases
-- High-volume roles (retail, logistics, CX): scale outreach/screening/scheduling.
-- Staffing & RPO teams: live ops console with agent assist and policy guardrails.
-- Compliance & audit: signed ledger + replay for verification and incident review.
+**Use cases**
+- High-volume roles (retail, logistics, CX): scale outreach, screening, scheduling
+- Staffing and RPO teams: live ops console with agent assist and policy guardrails
+- Compliance and audit: signed ledger and replay for verification and incident review
 
-Tech stack
-- Backend: Python 3.11, FastAPI, Uvicorn; SSE endpoints (`/events/stream`, `/chat/stream`); signed audit chain.
-- Frontend: React + Vite + Material UI, Recharts, i18n (EN/AR/ZH), dark mode; “Ask” panel with streaming.
-- Infra/QA: Docker + Render blueprint; Postgres-ready seams; pytest; structured logs + demo PII redaction.
+**Tech stack**
+- **Backend:** Python 3.11, FastAPI, Uvicorn; SSE endpoints (`/events/stream`, `/chat/stream`); signed audit chain
+- **Frontend:** React + Vite + Material UI, Recharts, i18n (EN/AR/ZH), dark mode; “Ask” panel with streaming
+- **Infra/QA:** Docker + Render blueprint; Postgres-ready seams; pytest; structured logs + demo PII redaction
 
-Screenshots
+**Screenshots**
 
-![Tab 1](https://github.com/aurelius-in/high-volume-recruiter-ai-agent/raw/main/hiretab1.gif)
-![Tab 2](https://github.com/aurelius-in/high-volume-recruiter-ai-agent/raw/main/hiretab2.gif)
-![Tab 3](https://github.com/aurelius-in/high-volume-recruiter-ai-agent/raw/main/hiretab3.gif)
+![Tab 1](https://raw.githubusercontent.com/aurelius-in/high-volume-recruiter-ai-agent/main/hiretab1.gif)
+![Tab 2](https://raw.githubusercontent.com/aurelius-in/high-volume-recruiter-ai-agent/main/hiretab2.gif)
+![Tab 3](https://raw.githubusercontent.com/aurelius-in/high-volume-recruiter-ai-agent/main/hiretab3.gif)
 
 ---
 
@@ -177,8 +179,8 @@ Enterprise AI governance with an LLM proxy, policies-as-code, safety guardrails,
 
 **Screenshots**
 <p>
-  <img src="https://github.com/aurelius-in/AI-Governance/raw/main/assets/screen1.png" width="49%">
-  <img src="https://github.com/aurelius-in/AI-Governance/raw/main/assets/screen2.png" width="49%">
+  <img src="https://raw.githubusercontent.com/aurelius-in/AI-Governance/main/assets/screen1.png" width="49%">
+  <img src="https://raw.githubusercontent.com/aurelius-in/AI-Governance/main/assets/screen2.png" width="49%">
 </p>
 
 ---
@@ -213,10 +215,10 @@ Multi-agent document analysis for regulatory compliance and business intelligenc
 
 ### MuseAgent
 
-**Repo:** [https://github.com/aurelius-in/MuseAgent](https://github.com/aurelius-in/MuseAgent)
+**Repo:** https://github.com/aurelius-in/MuseAgent
 
-**Summary**
-A modular multi-agent music intelligence platform that ingests tracks, extracts spectral features, generates embeddings, tags mood/genre/instrumentation, delivers explainable recommendations with visualizations, exports branded PDF reports, and includes optional enrichment and AI-powered music generation.
+**Summary**  
+A modular multi-agent music intelligence platform that ingests tracks, extracts spectral features, generates embeddings, tags mood, genre, and instrumentation, delivers explainable recommendations with visualizations, exports branded PDF reports, and includes optional enrichment and AI-powered music generation.
 
 **Screenshots**
 
@@ -228,28 +230,43 @@ A modular multi-agent music intelligence platform that ingests tracks, extracts 
 
 ### AdOps Flightdeck
 
-**Repo:** [https://github.com/aurelius-in/adops-flightdeck-multi-agent](https://github.com/aurelius-in/adops-flightdeck-multi-agent)
+**Repo:** https://github.com/aurelius-in/adops-flightdeck-multi-agent
 
-**Summary**
-Production-grade multi-agent AdOps Flightdeck that orchestrates AI agents for planning, creative generation & safety, pacing, anomaly response, attribution, and auditable reporting on AWS.
+**Summary**  
+Production-grade multi-agent AdOps Flightdeck that orchestrates AI agents for planning, creative generation and safety, pacing, anomaly response, attribution, and auditable reporting on AWS.
 
 **Screenshots**
 
 <p>
-<img src="https://github.com/aurelius-in/perception-lab/blob/main/assets/detect-ani.gif?raw=1" width="49%">
+  <img src="https://raw.githubusercontent.com/aurelius-in/adops-flightdeck-multi-agent/main/assets/adops-demo.gif" width="49%">
 </p>
+
+---
+
+### EdgeSight QA
+
+**Repo:** https://github.com/aurelius-in/EdgeSight-QA
+
+**Summary**  
+Modular, containerized edge computer-vision QA: multi-camera ingest to on-device inference to SCADA write-backs, with operator UI, metrics, and offline-safe logging.
+
+**Screenshots**
+
+<p>
+  <img src="docs/images/esqa-preview.gif" width="49%">
+</p>
+
 ---
 
 ### Perception Lab
-**Repo:** https://github.com/aurelius-in/perception-lab  
+**Repo:** https://github.com/aurelius-in/perception-lab
 
 **Summary**  
 Interactive environment for exploring perception scenarios, running detection and fusion pipelines, monitoring performance metrics, and exporting evaluation reports.
 
 **Screenshots**  
 <p>
-  <img src="https://raw.githubusercontent.com/aurelius-in/perception-lab/main/assets/detect-ani.gif" 
-   
+  <img src="docs/images/detect-ani-1.gif" width="49%">
 </p>
 
 ---
@@ -267,8 +284,19 @@ Interactive environment for exploring perception scenarios, running detection an
 | aiDa | Orchestrator plus task agents | NER, QA, compare, translate | Audit, OpenTelemetry | React/TS |
 | MuseAgent | Ingest, Feature Extractor, Embedder, Tagger, Generator | MFCC/mel/chroma features, CLAP/OpenL3 embeddings, RAG, music generation | Deterministic demo mode, Dockerized, eval reports | React/TS |
 | AdOps Flightdeck | Planner, Creative QA, Pacing, Anomaly, Attribution, Reporter | LangGraphJS orchestration, Bedrock models, anomaly detectors | AWS-native, OpenTelemetry, auditable reporting | React/TS |
-| Perception Lab | Detector, Fusion, Monitor, Evaluator | CV + sensor fusion pipelines, metrics and evaluation | Audit-ready exports, Docker infra | React/TS |
+| Perception Lab | Detector, Fusion, Monitor, Evaluator | CV plus sensor fusion pipelines, metrics and evaluation | Audit-ready exports, Docker infra | React/TS |
 
+---
+
+## Architecture One-Pagers
+
+Each project has a short, skimmable one-pager in `docs/`:
+- Problem and business value
+- Agent architecture and orchestration
+- Data flow and storage
+- Safety, privacy, and governance
+- Deployability and ops notes
+- Demo script and wow moments
 
 ---
 
