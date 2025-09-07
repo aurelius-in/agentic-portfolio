@@ -1,4 +1,34 @@
 {
+  "id": "edgesight-qa",
+  "name": "EdgeSight QA",
+  "repo": "https://github.com/aurelius-in/EdgeSight-QA",
+  "summary": "Modular, containerized edge computer-vision QA: multi-camera ingest → on-device inference → SCADA (Ignition) write-backs, with operator UI, metrics, and offline-safe logging.",
+  "stack": [
+    "FastAPI",
+    "React",
+    "Vite",
+    "Material UI",
+    "ONNX Runtime / TensorRT",
+    "MQTT",
+    "OPC UA",
+    "Docker",
+    "Kubernetes",
+    "Prometheus",
+    "Grafana"
+  ],
+  "images": [
+    "https://aurelius-in.github.io/agentic-portfolio/images/esqa-preview.gif?v=1",
+    "https://aurelius-in.github.io/agentic-portfolio/images/esqa-preview-poster.webp?v=1"
+  ],
+  "tags": [
+    "computer-vision",
+    "edge",
+    "industrial",
+    "qa",
+    "scada"
+  ]
+},
+{
   "owner": "aurelius-in",
   "title": "Agentic AI Systems Showcase",
   "contact": {
