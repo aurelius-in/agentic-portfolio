@@ -1,87 +1,5 @@
 {
-  "id": "myriskagent",
-  "name": "MyRiskAgent",
-  "repo": "https://github.com/aurelius-in/MyRiskAgent",
-  "summary": "Agentic risk analysis that ingests claims, filings, and OSINT to compute provider/company risk scores with peer-normalized outlier detection, SHAP explainability, and audit-ready evidence.",
-  "stack": [
-    "Python 3.11",
-    "FastAPI",
-    "Uvicorn",
-    "SQLModel/SQLAlchemy",
-    "DuckDB",
-    "Postgres/pgvector",
-    "Redis",
-    "React",
-    "TypeScript",
-    "Vite",
-    "Material UI",
-    "TanStack Query",
-    "ECharts",
-    "OPA (Rego)",
-    "Prometheus",
-    "Grafana",
-    "Docker Compose",
-    "Alembic",
-    "LangGraph (agents)"
-  ],
-  "images": [
-    "https://raw.githubusercontent.com/aurelius-in/reliable-ai-network/main/mra-placeholder.png"
-  ],
-  "tags": [
-    "agentic-ai",
-    "risk",
-    "governance",
-    "compliance",
-    "audit",
-    "explainability",
-    "shap",
-    "osint",
-    "documents",
-    "retrieval",
-    "vector-search",
-    "pgvector",
-    "duckdb",
-    "reports",
-    "observability",
-    "prometheus",
-    "grafana",
-    "policy",
-    "opa",
-    "finance",
-    "healthcare"
-  ]
-},
-{
-  "id": "edgesight-qa",
-  "name": "EdgeSight QA",
-  "repo": "https://github.com/aurelius-in/EdgeSight-QA",
-  "summary": "Modular, containerized edge computer-vision QA: multi-camera ingest → on-device inference → SCADA (Ignition) write-backs, with operator UI, metrics, and offline-safe logging.",
-  "stack": [
-    "FastAPI",
-    "React",
-    "Vite",
-    "Material UI",
-    "ONNX Runtime / TensorRT",
-    "MQTT",
-    "OPC UA",
-    "Docker",
-    "Kubernetes",
-    "Prometheus",
-    "Grafana"
-  ],
-  "images": [
-    "https://aurelius-in.github.io/agentic-portfolio/images/esqa-preview.gif?v=1",
-    "https://aurelius-in.github.io/agentic-portfolio/images/esqa-preview-poster.webp?v=1"
-  ],
-  "tags": [
-    "computer-vision",
-    "edge",
-    "industrial",
-    "qa",
-    "scada"
-  ]
-},
-{
+  "owner": "aurelius-in",
   "title": "Agentic AI Systems Showcase",
   "contact": {
     "email": "oliveraellison@gmail.com",
@@ -117,55 +35,55 @@
       ]
     },
     {
-  "id": "perception-lab",
-  "name": "Perception Lab",
-  "repo": "https://github.com/aurelius-in/perception-lab",
-  "summary": "Interactive environment for exploring perception scenarios, running detection and fusion pipelines, monitoring performance metrics, and exporting evaluation reports.",
-  "stack": [
-    "React",
-    "TypeScript",
-    "Material UI",
-    "FastAPI",
-    "Python 3.11",
-    "Docker"
-  ],
-"images": [
-  "https://aurelius-in.github.io/agentic-portfolio/images/detect-ani-1.gif?v=2",
-  "https://aurelius-in.github.io/agentic-portfolio/images/detect-ani-2.gif?v=2"
-],
-  "tags": [
-    "perception",
-    "multi-agent",
-    "evaluation",
-    "visualization"
-  ]
-},
+      "id": "perception-lab",
+      "name": "Perception Lab",
+      "repo": "https://github.com/aurelius-in/perception-lab",
+      "summary": "Interactive environment for exploring perception scenarios, running detection and fusion pipelines, monitoring performance metrics, and exporting evaluation reports.",
+      "stack": [
+        "React",
+        "TypeScript",
+        "Material UI",
+        "FastAPI",
+        "Python 3.11",
+        "Docker"
+      ],
+      "images": [
+        "https://aurelius-in.github.io/agentic-portfolio/images/detect-ani-1.gif?v=2",
+        "https://aurelius-in.github.io/agentic-portfolio/images/detect-ani-2.gif?v=2"
+      ],
+      "tags": [
+        "perception",
+        "multi-agent",
+        "evaluation",
+        "visualization"
+      ]
+    },
     {
-  "id": "museagent",
-  "name": "MuseAgent",
-  "repo": "https://github.com/aurelius-in/MuseAgent",
-  "summary": "A modular multi-agent music intelligence platform that ingests tracks, extracts spectral features, generates embeddings, tags mood/genre/instrumentation, delivers explainable recommendations with visualizations, exports branded PDF reports, and includes optional enrichment and AI-powered music generation.",
-   "stack": [
-    "Python 3.11",
-    "FastAPI",
-    "React",
-    "TypeScript",
-    "Material UI",
-    "Librosa",
-    "scikit-learn",
-    "Docker"
-  ],
-  "images": [
-    "https://github.com/aurelius-in/MuseAgent/raw/main/assets/ma-ui.gif"
-  ],
-  "tags": [
-    "music",
-    "recommendation",
-    "agentic-ai",
-    "embeddings",
-    "visualization"
-  ]
-},
+      "id": "museagent",
+      "name": "MuseAgent",
+      "repo": "https://github.com/aurelius-in/MuseAgent",
+      "summary": "A modular multi-agent music intelligence platform that ingests tracks, extracts spectral features, generates embeddings, tags mood/genre/instrumentation, delivers explainable recommendations with visualizations, exports branded PDF reports, and includes optional enrichment and AI-powered music generation.",
+      "stack": [
+        "Python 3.11",
+        "FastAPI",
+        "React",
+        "TypeScript",
+        "Material UI",
+        "Librosa",
+        "scikit-learn",
+        "Docker"
+      ],
+      "images": [
+        "https://raw.githubusercontent.com/aurelius-in/MuseAgent/main/assets/ma-ui.gif"
+      ],
+      "tags": [
+        "music",
+        "recommendation",
+        "agentic-ai",
+        "embeddings",
+        "visualization"
+      ]
+    },
     {
       "id": "autoops-sentinel",
       "name": "AutoOps Sentinel",
@@ -203,7 +121,7 @@
         "Redis"
       ],
       "images": [
-        "https://github.com/aurelius-in/Claims-Triage-AI/raw/main/docs/images/claims-demo.gif"
+        "https://raw.githubusercontent.com/aurelius-in/Claims-Triage-AI/main/docs/images/claims-demo.gif"
       ],
       "tags": [
         "insurance",
@@ -225,7 +143,7 @@
         "ChromaDB/Pinecone"
       ],
       "images": [
-        "https://github.com/aurelius-in/MindTrace/raw/main/assets/demo.gif"
+        "https://raw.githubusercontent.com/aurelius-in/MindTrace/main/assets/demo.gif"
       ],
       "tags": [
         "workforce",
@@ -247,8 +165,8 @@
         "OPA"
       ],
       "images": [
-        "https://github.com/aurelius-in/AI-Governance/raw/main/assets/screen1.png",
-        "https://github.com/aurelius-in/AI-Governance/raw/main/assets/screen2.png"
+        "https://raw.githubusercontent.com/aurelius-in/AI-Governance/main/assets/screen1.png",
+        "https://raw.githubusercontent.com/aurelius-in/AI-Governance/main/assets/screen2.png"
       ],
       "tags": [
         "governance",
@@ -280,30 +198,31 @@
         "compliance",
         "retrieval"
       ]
-    },{
-  "id": "adops-flightdeck",
-  "name": "AdOps Flightdeck",
-  "repo": "https://github.com/aurelius-in/adops-flightdeck-multi-agent",
-  "summary": "Production-grade multi-agent AdOps Flightdeck that orchestrates AI agents for planning, creative generation & safety, pacing, anomaly response, attribution, and auditable reporting on AWS.",
-  "stack": [
-    "TypeScript",
-    "React",
-    "Fastify / LangGraphJS",
-    "AWS (Bedrock, S3, DynamoDB, OpenSearch, EventBridge, SQS, CloudWatch)",
-    "Docker",
-    "OpenTelemetry"
-  ],
-  "images": [
-  "https://raw.githubusercontent.com/aurelius-in/adops-flightdeck-multi-agent/main/assets/adops-demo.gif"
-],
-  "tags": [
-    "adops",
-    "agentic-ai",
-    "auditable",
-    "multi-agent",
-    "aws"
-  ]
-},
+    },
+    {
+      "id": "adops-flightdeck",
+      "name": "AdOps Flightdeck",
+      "repo": "https://github.com/aurelius-in/adops-flightdeck-multi-agent",
+      "summary": "Production-grade multi-agent AdOps Flightdeck that orchestrates AI agents for planning, creative generation & safety, pacing, anomaly response, attribution, and auditable reporting on AWS.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Fastify / LangGraphJS",
+        "AWS (Bedrock, S3, DynamoDB, OpenSearch, EventBridge, SQS, CloudWatch)",
+        "Docker",
+        "OpenTelemetry"
+      ],
+      "images": [
+        "https://raw.githubusercontent.com/aurelius-in/adops-flightdeck-multi-agent/main/assets/adops-demo.gif"
+      ],
+      "tags": [
+        "adops",
+        "agentic-ai",
+        "auditable",
+        "multi-agent",
+        "aws"
+      ]
+    },
     {
       "id": "high-volume-recruiter",
       "name": "High-Volume Recruiter Agent",
@@ -322,9 +241,9 @@
         "Pytest"
       ],
       "images": [
-        "https://github.com/aurelius-in/high-volume-recruiter-ai-agent/raw/main/hiretab1.gif",
-        "https://github.com/aurelius-in/high-volume-recruiter-ai-agent/raw/main/hiretab2.gif",
-        "https://github.com/aurelius-in/high-volume-recruiter-ai-agent/raw/main/hiretab3.gif"
+        "https://raw.githubusercontent.com/aurelius-in/high-volume-recruiter-ai-agent/main/hiretab1.gif",
+        "https://raw.githubusercontent.com/aurelius-in/high-volume-recruiter-ai-agent/main/hiretab2.gif",
+        "https://raw.githubusercontent.com/aurelius-in/high-volume-recruiter-ai-agent/main/hiretab3.gif"
       ],
       "tags": [
         "recruiting",
@@ -332,6 +251,89 @@
         "governance",
         "audit",
         "SSE"
+      ]
+    },
+    {
+      "id": "myriskagent",
+      "name": "MyRiskAgent",
+      "repo": "https://github.com/aurelius-in/MyRiskAgent",
+      "summary": "Agentic risk analysis that ingests claims, filings, and OSINT to compute provider/company risk scores with peer-normalized outlier detection, SHAP explainability, and audit-ready evidence.",
+      "stack": [
+        "Python 3.11",
+        "FastAPI",
+        "Uvicorn",
+        "SQLModel/SQLAlchemy",
+        "DuckDB",
+        "Postgres/pgvector",
+        "Redis",
+        "React",
+        "TypeScript",
+        "Vite",
+        "Material UI",
+        "TanStack Query",
+        "ECharts",
+        "OPA (Rego)",
+        "Prometheus",
+        "Grafana",
+        "Docker Compose",
+        "Alembic",
+        "LangGraph (agents)"
+      ],
+      "images": [
+        "https://raw.githubusercontent.com/aurelius-in/reliable-ai-network/main/mra-placeholder.png"
+      ],
+      "tags": [
+        "agentic-ai",
+        "risk",
+        "governance",
+        "compliance",
+        "audit",
+        "explainability",
+        "shap",
+        "osint",
+        "documents",
+        "retrieval",
+        "vector-search",
+        "pgvector",
+        "duckdb",
+        "reports",
+        "observability",
+        "prometheus",
+        "grafana",
+        "policy",
+        "opa",
+        "finance",
+        "healthcare"
+      ]
+    },
+    {
+      "id": "edgesight-qa",
+      "name": "EdgeSight QA",
+      "repo": "https://github.com/aurelius-in/EdgeSight-QA",
+      "summary": "Modular, containerized edge computer-vision QA: multi-camera ingest → on-device inference → SCADA (Ignition) write-backs, with operator UI, metrics, and offline-safe logging.",
+      "stack": [
+        "FastAPI",
+        "React",
+        "Vite",
+        "Material UI",
+        "ONNX Runtime / TensorRT",
+        "MQTT",
+        "OPC UA",
+        "Docker",
+        "Kubernetes",
+        "Prometheus",
+        "Grafana"
+      ],
+      "images": [
+        "https://aurelius-in.github.io/agentic-portfolio/images/esqa-preview.gif?v=1",
+        "https://aurelius-in.github.io/agentic-portfolio/images/esqa-preview-poster.webp?v=1"
+      ],
+      "tags": [
+        "computer-vision",
+        "edge",
+        "industrial",
+        "qa",
+        "scada"
       ]
     }
   ]
