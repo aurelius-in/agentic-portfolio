@@ -258,6 +258,23 @@ Modular, containerized edge computer-vision QA: multi-camera ingest to on-device
 
 ---
 
+### MyRiskAgent
+**Repo:** https://github.com/aurelius-in/MyRiskAgent
+
+**Summary**  
+Agentic risk analysis that ingests claims, filings, and OSINT to compute provider/company risk scores with peer-normalized outlier detection, SHAP explainability, and audit-ready evidence. :contentReference[oaicite:2]{index=2}
+
+**Tech stack**  
+FastAPI (Python 3.11), SQLModel/SQLAlchemy, DuckDB, Postgres/pgvector, Redis, React + TypeScript + Vite + MUI + TanStack Query + ECharts, OPA (Rego), Prometheus/Grafana, Docker Compose, Alembic; LangGraph-style orchestration. :contentReference[oaicite:3]{index=3}
+
+**Screenshot/Logo**  
+<p>
+  <img src="https://raw.githubusercontent.com/aurelius-in/reliable-ai-network/main/mra-placeholder.png" width="49%">
+</p>
+
+
+---
+
 ### Perception Lab
 **Repo:** https://github.com/aurelius-in/perception-lab
 
