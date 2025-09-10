@@ -1,38 +1,4 @@
 {
-  "id": "ace-lab",
-  "name": "ACE Lab",
-  "repo": "https://github.com/aurelius-in/ACE-Lab",
-  "summary": "React + WebGL2 creative-tools lab where AI agents co-design shaders, auto-tune performance, compose transitions, and enforce brand policy—real-time canvas with presets, policy checks, and WebM export.",
-  "stack": [
-    "Vite",
-    "React",
-    "TypeScript",
-    "WebGL2/GLSL",
-    "Zustand",
-    "Tiny-SDF",
-    "Express",
-    "WASM (OPA)",
-    "Playwright"
-  ],
-  "images": [
-    "https://aurelius-in.github.io/agentic-portfolio/images/ace-lab-portfolio.webp?v=1",
-    "https://aurelius-in.github.io/agentic-portfolio/images/ace-lab-desktop.png?v=1"
-  ],
-  "tags": [
-    "agentic-ai",
-    "multi-agent",
-    "creative",
-    "webgl",
-    "shaders",
-    "video",
-    "graphics",
-    "realtime",
-    "policy",
-    "opa",
-    "export"
-  ]
-},
-{
   "owner": "aurelius-in",
   "title": "Agentic AI Systems Showcase",
   "contact": {
@@ -368,6 +334,40 @@
         "industrial",
         "qa",
         "scada"
+      ]
+    },
+    {
+      "id": "ace-lab",
+      "name": "ACE Lab",
+      "repo": "https://github.com/aurelius-in/ACE-Lab",
+      "summary": "React + WebGL2 creative-tools lab where AI agents co-design shaders, auto-tune performance, compose transitions, and enforce brand policy—real-time canvas with presets, policy checks, and WebM export.",
+      "stack": [
+        "Vite",
+        "React",
+        "TypeScript",
+        "WebGL2/GLSL",
+        "Zustand",
+        "Tiny-SDF",
+        "Express",
+        "WASM (OPA)",
+        "Playwright"
+      ],
+      "images": [
+        "https://aurelius-in.github.io/agentic-portfolio/images/ace-lab-portfolio.webp?v=1",
+        "https://aurelius-in.github.io/agentic-portfolio/images/ace-lab-desktop.png?v=1"
+      ],
+      "tags": [
+        "agentic-ai",
+        "multi-agent",
+        "creative",
+        "webgl",
+        "shaders",
+        "video",
+        "graphics",
+        "realtime",
+        "policy",
+        "opa",
+        "export"
       ]
     }
   ]
