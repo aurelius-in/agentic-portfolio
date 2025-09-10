@@ -223,7 +223,7 @@ A modular multi-agent music intelligence platform that ingests tracks, extracts 
 **Screenshots**
 
 <p>
-  <img src="https://raw.githubusercontent.com/aurelius-in/MuseAgent/main/assets/ma-logo.png" width="49%">
+  <img src="docs/images/ma-ui-demo.gif" width="60%">
 </p>
 
 ---
