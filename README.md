@@ -288,7 +288,7 @@ Interactive environment for exploring perception scenarios, running detection an
 
 ---
 
-## Demo Matrix
+## Application Matrix
 
 | Project | Core Agents | Key Models and Methods | Ops and Compliance | Frontend |
 |---|---|---|---|---|
