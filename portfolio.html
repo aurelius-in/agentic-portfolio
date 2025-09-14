@@ -2,15 +2,19 @@
 <html lang="en">
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Portfolio | Reliable AI Network</title>
-  <meta name="description" content="Selected agentic AI projects and patterns by Reliable AI Network (RAIN).">
+  <title>Oliver Ellison — Portfolio | Reliable AI Network (RAIN)</title>
+  <meta name="description" content="All software in this portfolio was designed and built by Oliver Ellison d/b/a Reliable AI Network, LLC (“RAIN”). Explore production-grade agentic AI projects by industry, capability, and readiness.">
+  <meta name="author" content="Oliver Ellison">
   <link rel="icon" href="./rain-social.png" type="image/png">
   <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
   <header class="nav">
     <div class="nav-inner container">
-      <a class="brand" href="./"><img src="./rain-social.png" alt="RAIN logo"><span class="name">Reliable AI Network</span></a>
+      <a class="brand" href="./">
+        <img src="./rain-social.png" alt="RAIN logo">
+        <span class="name">Reliable AI Network</span>
+      </a>
       <nav class="nav-links">
         <a href="./estimator.html" class="link">Estimator</a>
         <a href="./portfolio.html" class="cta">Portfolio</a>
@@ -20,7 +24,13 @@
 
   <main class="container section">
     <h1>Portfolio</h1>
-    <p class="lead">Production‑grade agentic systems. Filter by industry, capability, and readiness, then dive into the repositories.</p>
+
+    <!-- Author attribution (high-visibility, screen-reader friendly) -->
+    <div class="panel" role="note" aria-label="Author attribution" style="margin:.5rem 0 1rem 0;">
+      <strong>All software in this portfolio was designed and built by Oliver Ellison d/b/a Reliable AI Network, LLC (“RAIN”).</strong>
+    </div>
+
+    <p class="lead">Production-grade agentic systems. Filter by industry, capability, and readiness, then dive into the repositories.</p>
 
     <div style="display:flex; gap:12px; align-items:center; margin:12px 0; flex-wrap:wrap">
       <label for="filterIndustry" class="muted"><strong>Industry</strong></label>
@@ -49,26 +59,26 @@
   </main>
 
   <footer class="footer">
-    <p>© 2025 Reliable AI Network, LLC</p>
+    <p>© 2025 Reliable AI Network, LLC — Built by <strong>Oliver Ellison</strong></p>
   </footer>
 
   <script>
   // Project catalog — aligned to your portfolio
   const PROJECTS = [
-    {title:"Agentic AI Health Navigator", industry:"Healthcare", readiness:"Ready", summary:"Clinical triage & navigation with retrieval grounding and step‑by‑step traces.", tags:["RAG","Evals","Traces"], url:"https://github.com/aurelius-in/AI-Health-Navigator-for-Patients"},
-    {title:"AutoOps Sentinel", industry:"IT/Ops", readiness:"Ready", summary:"Agentic AIOps: anomaly detection, forecasting, safe auto‑remediation, and exec‑ready insights.", tags:["AIOps","Forecasting","Runbooks"], url:"https://github.com/aurelius-in/AutoOps-Sentinel"},
+    {title:"Agentic AI Health Navigator", industry:"Healthcare", readiness:"Ready", summary:"Clinical triage & navigation with retrieval grounding and step-by-step traces.", tags:["RAG","Evals","Traces"], url:"https://github.com/aurelius-in/AI-Health-Navigator-for-Patients"},
+    {title:"AutoOps Sentinel", industry:"IT/Ops", readiness:"Ready", summary:"Agentic AIOps: anomaly detection, forecasting, safe auto-remediation, and exec-ready insights.", tags:["AIOps","Forecasting","Runbooks"], url:"https://github.com/aurelius-in/AutoOps-Sentinel"},
     {title:"Agentic Claims Triage AI", industry:"Insurance", readiness:"Ready", summary:"Decision support for claims classification, risk scoring, routing, and compliance.", tags:["Explainability","Policy","Dashboards"], url:"https://github.com/aurelius-in/Claims-Triage-AI"},
-    {title:"Enterprise Wellness AI (MindTrace)", industry:"Wellness", readiness:"Ready", summary:"Five‑agent wellness platform with privacy‑first design and organizational analytics.", tags:["Privacy","Agents","Analytics"], url:"https://github.com/aurelius-in/MindTrace"},
-    {title:"High‑Volume Recruiter Agent", industry:"Recruiting", readiness:"Ready", summary:"Outreach → screening → scheduling → ATS sync with live ops UI and audit trail.", tags:["Automations","Scheduling","Ops"], url:"https://github.com/aurelius-in/high-volume-recruiter-ai-agent"},
-    {title:"AI Governance Dashboard", industry:"Risk/Compliance", readiness:"Ready", summary:"LLM proxy, policy‑as‑code guardrails, automated checks, and cost monitoring.", tags:["Guardrails","OPA","Observability"], url:"https://github.com/aurelius-in/AI-Governance"},
-    {title:"AI Document Agent (aiDa)", industry:"Docs/Compliance", readiness:"Ready", summary:"Multi‑agent document analysis: ingest, classify, extract, assess risk, export evidence.", tags:["RAG","NER","Traces"], url:"https://github.com/aurelius-in/Smart-Document-Bot"},
+    {title:"Enterprise Wellness AI (MindTrace)", industry:"Wellness", readiness:"Ready", summary:"Five-agent wellness platform with privacy-first design and organizational analytics.", tags:["Privacy","Agents","Analytics"], url:"https://github.com/aurelius-in/MindTrace"},
+    {title:"High-Volume Recruiter Agent", industry:"Recruiting", readiness:"Ready", summary:"Outreach → screening → scheduling → ATS sync with live ops UI and audit trail.", tags:["Automations","Scheduling","Ops"], url:"https://github.com/aurelius-in/high-volume-recruiter-ai-agent"},
+    {title:"AI Governance Dashboard", industry:"Risk/Compliance", readiness:"Ready", summary:"LLM proxy, policy-as-code guardrails, automated checks, and cost monitoring.", tags:["Guardrails","OPA","Observability"], url:"https://github.com/aurelius-in/AI-Governance"},
+    {title:"AI Document Agent (aiDa)", industry:"Docs/Compliance", readiness:"Ready", summary:"Multi-agent document analysis: ingest, classify, extract, assess risk, export evidence.", tags:["RAG","NER","Traces"], url:"https://github.com/aurelius-in/Smart-Document-Bot"},
     {title:"MuseAgent", industry:"Music/Media", readiness:"Ready", summary:"Spectral features → embeddings → tagging → explainable recommendations with visuals.", tags:["Embeddings","Recs","Reports"], url:"https://github.com/aurelius-in/MuseAgent"},
-    {title:"AdOps Flightdeck (Multi‑Agent)", industry:"Advertising", readiness:"Ready", summary:"Plan, creative QA, pacing, anomaly response, attribution, and auditable reporting.", tags:["Agents","QA","AWS"], url:"https://github.com/aurelius-in/adops-flightdeck-multi-agent"},
+    {title:"AdOps Flightdeck (Multi-Agent)", industry:"Advertising", readiness:"Ready", summary:"Plan, creative QA, pacing, anomaly response, attribution, and auditable reporting.", tags:["Agents","QA","AWS"], url:"https://github.com/aurelius-in/adops-flightdeck-multi-agent"},
     {title:"Perception Lab", industry:"Perception/CV", readiness:"Ready", summary:"Explore perception scenarios, fusion pipelines, metrics dashboards, and exports.", tags:["CV","Fusion","Metrics"], url:"https://github.com/aurelius-in/perception-lab"},
 
     // Coming soon
-    {title:"MyRiskAgent", industry:"Finance", readiness:"Coming Soon", summary:"Research copilot for vendor risk & capital markets with source‑grounded answers.", tags:["RAG","Scoring"], url:""},
-    {title:"EdgeSight QA", industry:"Advertising", readiness:"Coming Soon", summary:"Creative QA and brand‑safety evaluation with explainable checks and reports.", tags:["QA","Safety"], url:""}
+    {title:"MyRiskAgent", industry:"Finance", readiness:"Coming Soon", summary:"Research copilot for vendor risk & capital markets with source-grounded answers.", tags:["RAG","Scoring"], url:""},
+    {title:"EdgeSight QA", industry:"Advertising", readiness:"Coming Soon", summary:"Creative QA and brand-safety evaluation with explainable checks and reports.", tags:["QA","Safety"], url:""}
   ];
 
   function buildOptions(selectEl, values) {
@@ -80,9 +90,7 @@
     });
   }
 
-  function unique(list) {
-    return Array.from(new Set(list));
-  }
+  function unique(list) { return Array.from(new Set(list)); }
 
   function initFilters() {
     const industryEl = document.getElementById('filterIndustry');
@@ -119,7 +127,7 @@
     const meta = document.createElement('p');
     meta.className = 'muted';
     meta.style.margin = '6px 0';
-    meta.innerHTML = '<strong>' + p.industry + '</strong>' + (p.readiness === 'Coming Soon' ? " <span class=\"tag\">Coming Soon</span>" : '');
+    meta.innerHTML = '<strong>' + p.industry + '</strong>' + (p.readiness === 'Coming Soon' ? ' <span class="tag">Coming Soon</span>' : '');
     art.appendChild(meta);
 
     const sum = document.createElement('p');
