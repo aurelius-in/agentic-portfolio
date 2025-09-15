@@ -34,15 +34,29 @@
         "agentic-ai"
       ]
     },
-        {title:"Epiphany", industry:"Knowledge/Insights", readiness:"Ready",
-     summary:"Agentic research & insight engine: ingests notes/docs, maps concepts, and generates briefs & action plans with citations.",
-     tags:["RAG","Insights","Reports"],
-     url:"https://github.com/aurelius-in/Epiphany",
-     // images (served from your Pages site)
-     animated:"https://aurelius-in.github.io/agentic-portfolio/images/epiphany.webp",
-     poster:"https://aurelius-in.github.io/agentic-portfolio/images/epiphany.png"
+    {
+      "id": "epiphany",
+      "name": "Epiphany",
+      "repo": "https://github.com/aurelius-in/Epiphany",
+      "summary": "Agentic research & insight engine: ingests notes and docs, maps concepts, and generates briefs and action plans with citations.",
+      "stack": [
+        "FastAPI",
+        "React",
+        "TypeScript",
+        "DuckDB",
+        "PostgreSQL/pgvector",
+        "OpenTelemetry"
+      ],
+      "images": [
+        "https://aurelius-in.github.io/agentic-portfolio/images/epiphany.webp",
+        "https://aurelius-in.github.io/agentic-portfolio/images/epiphany.png"
+      ],
+      "tags": [
+        "rag",
+        "insights",
+        "reports"
+      ]
     },
-
     {
       "id": "perception-lab",
       "name": "Perception Lab",
