@@ -363,7 +363,7 @@
       "id": "ace-lab",
       "name": "ACE Lab",
       "repo": "https://github.com/aurelius-in/ACE-Lab",
-      "summary": "React + WebGL2 creative-tools lab where AI agents co-design shaders, auto-tune performance, compose transitions, and enforce brand policy—real-time canvas with presets, policy checks, and WebM export.",
+      "summary": Agentic Creative Experience Lab is a real-time, WebGPU-first platform that blends agentic shader design, on-device image generation, and microservice video generation (AnimateDiff for motion, RIFE for interpolation), plus generative fill, style transfer, and policy-safe WebM export.",
       "stack": [
         "Vite",
         "React",
