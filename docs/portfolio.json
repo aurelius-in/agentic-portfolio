@@ -360,38 +360,41 @@
       ]
     },
     {
-      "id": "ace-lab",
-      "name": "ACE Lab",
-      "repo": "https://github.com/aurelius-in/ACE-Lab",
-      "summary": Agentic Creative Experience Lab is a real-time, WebGPU-first platform that blends agentic shader design, on-device image generation, and microservice video generation (AnimateDiff for motion, RIFE for interpolation), plus generative fill, style transfer, and policy-safe WebM export.",
-      "stack": [
-        "Vite",
-        "React",
-        "TypeScript",
-        "WebGL2/GLSL",
-        "Zustand",
-        "Tiny-SDF",
-        "Express",
-        "WASM (OPA)",
-        "Playwright"
-      ],
-      "images": [
-        "https://aurelius-in.github.io/agentic-portfolio/images/ace-lab-portfolio.webp?v=1",
-        "https://aurelius-in.github.io/agentic-portfolio/images/ace-lab-desktop.png?v=1"
-      ],
-      "tags": [
-        "agentic-ai",
-        "multi-agent",
-        "creative",
-        "webgl",
-        "shaders",
-        "video",
-        "graphics",
-        "realtime",
-        "policy",
-        "opa",
-        "export"
-      ]
-    }
+  "id": "ace-lab",
+  "name": "ACE Lab",
+  "repo": "https://github.com/aurelius-in/ACE-Lab",
+  "summary": "Agentic Creative Experience Lab is a real-time, WebGPU-first platform that blends agentic shader design, on-device image generation, and microservice video generation (AnimateDiff for motion, RIFE for interpolation), plus generative fill, style transfer, and policy-safe WebM export.",
+  "stack": [
+    "Vite",
+    "React",
+    "TypeScript",
+    "WebGPU/WGSL",
+    "WebGL2/GLSL (fallback)",
+    "Zustand",
+    "Tiny-SDF",
+    "Express",
+    "AnimateDiff",
+    "RIFE",
+    "WASM (OPA)",
+    "Playwright"
+  ],
+  "images": [
+    "https://aurelius-in.github.io/agentic-portfolio/images/ace-lab-portfolio.webp?v=1",
+    "https://aurelius-in.github.io/agentic-portfolio/images/ace-lab-desktop.png?v=1"
+  ],
+  "tags": [
+    "agentic-ai",
+    "webgpu",
+    "creative",
+    "shaders",
+    "video",
+    "animation",
+    "diffusion",
+    "realtime",
+    "policy",
+    "opa",
+    "export"
+  ]
+}
   ]
 }
