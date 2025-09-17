@@ -38,7 +38,7 @@
       "id": "epiphany",
       "name": "Epiphany",
       "repo": "https://github.com/aurelius-in/Epiphany",
-      "summary": "Agentic research & insight engine: ingests notes and docs, maps concepts, and generates briefs and action plans with citations.",
+      "summary": "Self-hosted full-stack diffusion suite for image and video generation with a Next.js UI, Express APIs, and FastAPI GPU workers—supporting SDXL (txt2img/img2img/inpainting/ControlNet), text-to-video, prompt enhancement, Safe→Research→NSFW modes, editing tools (upscale/bg-remove/face-restore), Redis + S3, and explainability (attention heatmaps + audit logs).",
       "stack": [
         "FastAPI",
         "React",
