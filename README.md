@@ -295,7 +295,7 @@ Real-time WebGPU-first creative lab that blends agentic shader design, on-device
 
 **Screenshots**
 <p>
-  <img src="https://aurelius-in.github.io/agentic-portfolio/images/ace-lab-portfolio.webp?v=1" width="60%">
+  <img src="https://aurelius-in.github.io/agentic-portfolio/images/ace-lab.gif?v=1" width="60%">
 </p>
 
 ---
