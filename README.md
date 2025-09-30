@@ -283,7 +283,7 @@ Interactive environment for exploring perception scenarios, running detection an
 
 **Demo**
 <p>
-  <img src="https://aurelius-in.github.io/agentic-portfolio/docs/images/detect-ani-1.gif" width="60%">
+  <img src="docs/images/detect-ani-1.gif" width="60%">
 </p>
 
 ---
