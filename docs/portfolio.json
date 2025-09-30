@@ -329,6 +329,41 @@
         "healthcare"
       ]
     },
+
+    {
+  "id": "rainref",
+  "name": "RainRef",
+  "repo": "https://github.com/aurelius-in/RainRef",
+  "summary": "AI support ‘Ref’ that normalizes tickets/chats/emails into RefEvents, drafts grounded answers with citations, proposes policy-gated safe actions with signed receipts, and emits Product Signals to Jira/Linear/RainScout.",
+  "stack": [
+    "FastAPI",
+    "Python 3.11",
+    "React",
+    "TypeScript",
+    "Vite",
+    "PostgreSQL/pgvector",
+    "Azure Blob (Azurite dev)",
+    "OPA (Rego)",
+    "LangGraph",
+    "OpenTelemetry",
+    "Langfuse",
+    "Docker Compose"
+  ],
+  "images": [
+    "/images/rr_day.png",
+    "/images/rr_demo.webp"
+  ],
+  "tags": [
+    "support",
+    "customer-success",
+    "product-signals",
+    "governance",
+    "receipts",
+    "agentic-ai"
+  ]
+},
+
+    
     {
       "id": "edgesight-qa",
       "name": "EdgeSight QA",
