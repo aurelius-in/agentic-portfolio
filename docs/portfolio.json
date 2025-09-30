@@ -1,484 +1,400 @@
 {
-"owner": "aurelius-in",
-"title": "Agentic AI Systems Showcase",
-"contact": {
-"email": "[oliveraellison@gmail.com](mailto:oliveraellison@gmail.com)",
-"linkedin": "[https://www.linkedin.com/in/oellison/](https://www.linkedin.com/in/oellison/)"
-},
-"projects": [
-{
-"id": "health-navigator",
-"name": "Agentic AI Health Navigator",
-"repo": "[https://github.com/aurelius-in/AI-Health-Navigator-for-Patients](https://github.com/aurelius-in/AI-Health-Navigator-for-Patients)",
-"summary": "Enterprise health navigation that performs symptom triage, emergency risk checks, provider matching, and personalized care plans using a multi-agent brain with shared memory and observability for HIPAA-minded deployments.",
-"why_it_exists": "Help patients reach the right level of care quickly while reducing avoidable escalations and improving care coordination.",
-"proof_points": [
-"ICD-10 mapping and drug interaction checks",
-"Cross-agent memory and reasoning for longitudinal journeys",
-"API-first microservices with metrics and tracing"
-],
-"stack": [
-"FastAPI",
-"React",
-"TypeScript",
-"PyTorch",
-"PostgreSQL",
-"Redis",
-"ChromaDB",
-"Kubernetes",
-"Prometheus",
-"Grafana"
-],
-"images": [
-"[https://raw.githubusercontent.com/aurelius-in/AI-Health-Navigator-for-Patients/main/assets/screen1.png](https://raw.githubusercontent.com/aurelius-in/AI-Health-Navigator-for-Patients/main/assets/screen1.png)",
-"[https://raw.githubusercontent.com/aurelius-in/AI-Health-Navigator-for-Patients/main/assets/screen2.png](https://raw.githubusercontent.com/aurelius-in/AI-Health-Navigator-for-Patients/main/assets/screen2.png)",
-"[https://raw.githubusercontent.com/aurelius-in/AI-Health-Navigator-for-Patients/main/assets/screen3.png](https://raw.githubusercontent.com/aurelius-in/AI-Health-Navigator-for-Patients/main/assets/screen3.png)"
-],
-"tags": [
-"healthcare",
-"navigation",
-"agentic-ai"
-]
-},
-{
-"id": "epiphany",
-"name": "Epiphany",
-"repo": "[https://github.com/aurelius-in/Epiphany](https://github.com/aurelius-in/Epiphany)",
-"summary": "Self-hosted full-stack diffusion and video suite: Next.js UI, Express API gateway, and FastAPI GPU workers for SDXL txt2img/img2img/inpainting/ControlNet plus text-to-video. Includes prompt enhancement, Safe-Research-NSFW modes, edit tools (upscale, face restore, background remove), attention heatmaps, and audit logs of prompts, params, and model hashes.",
-"why_it_exists": "Give teams a controllable and auditable creative stack without depending on third-party SaaS.",
-"proof_points": [
-"Mode switches for safety and research workflows",
-"Explainability overlays and parameter capture",
-"Redis and S3 backed job queues and storage"
-],
-"stack": [
-"FastAPI",
-"React",
-"TypeScript",
-"DuckDB",
-"PostgreSQL/pgvector",
-"OpenTelemetry"
-],
-"images": [
-"[https://aurelius-in.github.io/agentic-portfolio/images/epiphany.webp](https://aurelius-in.github.io/agentic-portfolio/images/epiphany.webp)",
-"[https://aurelius-in.github.io/agentic-portfolio/images/epiphany.png](https://aurelius-in.github.io/agentic-portfolio/images/epiphany.png)"
-],
-"tags": [
-"rag",
-"insights",
-"reports"
-]
-},
-{
-"id": "perception-lab",
-"name": "Perception Lab",
-"repo": "[https://github.com/aurelius-in/perception-lab](https://github.com/aurelius-in/perception-lab)",
-"summary": "Interactive environment for perception experiments and evaluation with detection and sensor fusion pipelines, COCO-style metrics, and exportable reports. Designed to move from offline analysis to fieldable pipelines with monitoring hooks.",
-"why_it_exists": "Shorten the loop from model experimentation to reliable perception performance with traceable metrics.",
-"proof_points": [
-"COCO metrics including mAP, IoU, IDF1",
-"Adapters for common model hosts and accelerators",
-"PDF and JSON evaluation exports"
-],
-"stack": [
-"React",
-"TypeScript",
-"Material UI",
-"FastAPI",
-"Python 3.11",
-"Docker"
-],
-"images": [
-"[https://aurelius-in.github.io/agentic-portfolio/images/detect-ani-1.gif?v=2](https://aurelius-in.github.io/agentic-portfolio/images/detect-ani-1.gif?v=2)",
-"[https://aurelius-in.github.io/agentic-portfolio/images/detect-ani-2.gif?v=2](https://aurelius-in.github.io/agentic-portfolio/images/detect-ani-2.gif?v=2)"
-],
-"tags": [
-"perception",
-"multi-agent",
-"evaluation",
-"visualization"
-]
-},
-{
-"id": "museagent",
-"name": "MuseAgent",
-"repo": "[https://github.com/aurelius-in/MuseAgent](https://github.com/aurelius-in/MuseAgent)",
-"summary": "Modular music intelligence that ingests audio, extracts spectral features, builds embeddings, auto-tags mood, genre, and instrumentation, and serves explainable recommendations with visualizations, branded PDF exports, and optional AI music generation.",
-"why_it_exists": "Enable A&R, playlists, and catalogs to scale curation with transparent, explainable signals.",
-"proof_points": [
-"MFCC, chroma, tempo, key feature pipelines",
-"Nearest neighbor search with embeddings",
-"Operator UI with notebook-ready exports"
-],
-"stack": [
-"Python 3.11",
-"FastAPI",
-"React",
-"TypeScript",
-"Material UI",
-"Librosa",
-"scikit-learn",
-"Docker"
-],
-"images": [
-"[https://raw.githubusercontent.com/aurelius-in/MuseAgent/main/assets/ma-ui.gif](https://raw.githubusercontent.com/aurelius-in/MuseAgent/main/assets/ma-ui.gif)"
-],
-"tags": [
-"music",
-"recommendation",
-"agentic-ai",
-"embeddings",
-"visualization"
-]
-},
-{
-"id": "autoops-sentinel",
-"name": "AutoOps Sentinel",
-"repo": "[https://github.com/aurelius-in/AutoOps-Sentinel](https://github.com/aurelius-in/AutoOps-Sentinel)",
-"summary": "Agentic AIOps that detects anomalies, forecasts incidents, and performs safe auto-remediation. Executive dashboard explains actions and attributes business impact so teams see reliability and value, not just alerts.",
-"why_it_exists": "Cut MTTR and noise while showing measurable business outcomes to non-technical stakeholders.",
-"proof_points": [
-"Anomaly detection and forecasting with guardrails",
-"Natural language exec narratives with evidence",
-"Prometheus and Grafana integration"
-],
-"stack": [
-"FastAPI",
-"React",
-"TypeScript",
-"Prometheus",
-"Grafana",
-"GitHub Actions"
-],
-"images": [
-"[https://raw.githubusercontent.com/aurelius-in/AutoOps-Sentinel/main/aostab1.gif](https://raw.githubusercontent.com/aurelius-in/AutoOps-Sentinel/main/aostab1.gif)",
-"[https://raw.githubusercontent.com/aurelius-in/AutoOps-Sentinel/main/aostab2.gif](https://raw.githubusercontent.com/aurelius-in/AutoOps-Sentinel/main/aostab2.gif)",
-"[https://raw.githubusercontent.com/aurelius-in/AutoOps-Sentinel/main/aostab3.gif](https://raw.githubusercontent.com/aurelius-in/AutoOps-Sentinel/main/aostab3.gif)"
-],
-"tags": [
-"aiops",
-"slo",
-"automation"
-]
-},
-{
-"id": "claims-triage",
-"name": "Agentic Claims Triage AI",
-"repo": "[https://github.com/aurelius-in/Claims-Triage-AI](https://github.com/aurelius-in/Claims-Triage-AI)",
-"summary": "Automates claims intake, classification, risk scoring, policy evaluation, and routing with transparent rationale and operator controls using retrieval augmented reasoning and policies as code.",
-"why_it_exists": "Accelerate claims handling while improving consistency and compliance across adjusters and lines of business.",
-"proof_points": [
-"Explainable routing with cited evidence",
-"Policy checks before action and export",
-"Real time dashboards for throughput and risk"
-],
-"stack": [
-"FastAPI",
-"React",
-"TypeScript",
-"PostgreSQL",
-"Redis"
-],
-"images": [
-"[https://raw.githubusercontent.com/aurelius-in/Claims-Triage-AI/main/docs/images/claims-demo.gif](https://raw.githubusercontent.com/aurelius-in/Claims-Triage-AI/main/docs/images/claims-demo.gif)"
-],
-"tags": [
-"insurance",
-"healthcare",
-"compliance"
-]
-},
-{
-"id": "mindtrace",
-"name": "Enterprise Wellness AI (MindTrace)",
-"repo": "[https://github.com/aurelius-in/MindTrace](https://github.com/aurelius-in/MindTrace)",
-"summary": "Privacy-first wellness analytics that estimates burnout risk and recommends interventions, surfacing leadership-level organizational signals while minimizing data collection.",
-"why_it_exists": "Support healthier teams and reduce turnover with early risk detection that respects employee trust.",
-"proof_points": [
-"Privacy mindful feature design and storage",
-"Org-level rollups with drilldowns",
-"Integrations for lightweight check-ins"
-],
-"stack": [
-"FastAPI",
-"React",
-"TypeScript",
-"PostgreSQL",
-"Redis",
-"ChromaDB/Pinecone"
-],
-"images": [
-"[https://raw.githubusercontent.com/aurelius-in/MindTrace/main/assets/demo.gif](https://raw.githubusercontent.com/aurelius-in/MindTrace/main/assets/demo.gif)"
-],
-"tags": [
-"workforce",
-"wellness",
-"privacy"
-]
-},
-{
-"id": "ai-governance",
-"name": "AI Governance Dashboard",
-"repo": "[https://github.com/aurelius-in/AI-Governance](https://github.com/aurelius-in/AI-Governance)",
-"summary": "LLM control plane that standardizes usage behind one governed proxy with policies as code, safety filters, cost controls, model routing, and immutable audit trails.",
-"why_it_exists": "Make enterprise LLM usage safe, predictable, and cost-aware across teams and products.",
-"proof_points": [
-"OPA policy hooks and enforcement",
-"Per user and per team quotas and budgets",
-"Model routing with fallback strategies"
-],
-"stack": [
-"FastAPI",
-"React",
-"TypeScript",
-"PostgreSQL",
-"Redis",
-"OPA"
-],
-"images": [
-"[https://raw.githubusercontent.com/aurelius-in/AI-Governance/main/assets/screen1.png](https://raw.githubusercontent.com/aurelius-in/AI-Governance/main/assets/screen1.png)",
-"[https://raw.githubusercontent.com/aurelius-in/AI-Governance/main/assets/screen2.png](https://raw.githubusercontent.com/aurelius-in/AI-Governance/main/assets/screen2.png)"
-],
-"tags": [
-"governance",
-"security",
-"routing"
-]
-},
-{
-"id": "aida",
-"name": "AI Document Agent (aiDa)",
-"repo": "[https://github.com/aurelius-in/Smart-Document-Bot](https://github.com/aurelius-in/Smart-Document-Bot)",
-"summary": "Multi-agent document processing for ingestion, extraction, policy checks, retrieval augmented reasoning with cited rationale, and export bundles, all in an operator-friendly UI.",
-"why_it_exists": "Turn messy document intake into auditable, policy-compliant decisions with traceable reasoning.",
-"proof_points": [
-"Chunking and enrichment with retrieval",
-"Policy gates before downstream actions",
-"Export bundles for audit and handoff"
-],
-"stack": [
-"FastAPI",
-"React",
-"TypeScript",
-"PostgreSQL",
-"Redis",
-"ChromaDB/Pinecone"
-],
-"images": [
-"[https://raw.githubusercontent.com/aurelius-in/Smart-Document-Bot/main/tab1.gif](https://raw.githubusercontent.com/aurelius-in/Smart-Document-Bot/main/tab1.gif)",
-"[https://raw.githubusercontent.com/aurelius-in/Smart-Document-Bot/main/tab2.gif](https://raw.githubusercontent.com/aurelius-in/Smart-Document-Bot/main/tab2.gif)",
-"[https://raw.githubusercontent.com/aurelius-in/Smart-Document-Bot/main/tab3.gif](https://raw.githubusercontent.com/aurelius-in/Smart-Document-Bot/main/tab3.gif)",
-"[https://raw.githubusercontent.com/aurelius-in/Smart-Document-Bot/main/tab4.gif](https://raw.githubusercontent.com/aurelius-in/Smart-Document-Bot/main/tab4.gif)"
-],
-"tags": [
-"documents",
-"compliance",
-"retrieval"
-]
-},
-{
-"id": "adops-flightdeck",
-"name": "AdOps Flightdeck",
-"repo": "[https://github.com/aurelius-in/adops-flightdeck-multi-agent](https://github.com/aurelius-in/adops-flightdeck-multi-agent)",
-"summary": "Production-grade multi-agent AdOps system on AWS that plans experiments, enforces creative safety, paces budgets, investigates anomalies, and generates auditable reports across Bedrock, S3, DynamoDB, OpenSearch, EventBridge, SQS, and CloudWatch.",
-"why_it_exists": "Run paid media with confidence by pairing agent autonomy with strong controls and evidence.",
-"proof_points": [
-"LangGraphJS orchestration with guardrails",
-"Attribution and pacing monitors",
-"Signed reports and event logs"
-],
-"stack": [
-"TypeScript",
-"React",
-"Fastify / LangGraphJS",
-"AWS (Bedrock, S3, DynamoDB, OpenSearch, EventBridge, SQS, CloudWatch)",
-"Docker",
-"OpenTelemetry"
-],
-"images": [
-"[https://raw.githubusercontent.com/aurelius-in/adops-flightdeck-multi-agent/main/assets/adops-demo.gif](https://raw.githubusercontent.com/aurelius-in/adops-flightdeck-multi-agent/main/assets/adops-demo.gif)"
-],
-"tags": [
-"adops",
-"agentic-ai",
-"auditable",
-"multi-agent",
-"aws"
-]
-},
-{
-"id": "high-volume-recruiter",
-"name": "High-Volume Recruiter Agent",
-"repo": "[https://github.com/aurelius-in/high-volume-recruiter-ai-agent](https://github.com/aurelius-in/high-volume-recruiter-ai-agent)",
-"summary": "End-to-end recruiter workflow from outreach to screening, scheduling, and ATS sync with live KPIs, capacity and SLA analytics, policy-checked messaging, and a signed, replayable audit trail. Supports offline or real messaging via adapters.",
-"why_it_exists": "Scale recruiting throughput while maintaining compliance, brand safety, and a clear audit trail.",
-"proof_points": [
-"Operator console with SSE progress",
-"Policy checks for outreach content",
-"Signed, replayable interaction logs"
-],
-"stack": [
-"Python 3.11",
-"FastAPI",
-"React",
-"TypeScript",
-"Vite",
-"Material UI",
-"Recharts",
-"SSE",
-"Docker",
-"Pytest"
-],
-"images": [
-"[https://raw.githubusercontent.com/aurelius-in/high-volume-recruiter-ai-agent/main/hiretab1.gif](https://raw.githubusercontent.com/aurelius-in/high-volume-recruiter-ai-agent/main/hiretab1.gif)",
-"[https://raw.githubusercontent.com/aurelius-in/high-volume-recruiter-ai-agent/main/hiretab2.gif](https://raw.githubusercontent.com/aurelius-in/high-volume-recruiter-ai-agent/main/hiretab2.gif)",
-"[https://raw.githubusercontent.com/aurelius-in/high-volume-recruiter-ai-agent/main/hiretab3.gif](https://raw.githubusercontent.com/aurelius-in/high-volume-recruiter-ai-agent/main/hiretab3.gif)"
-],
-"tags": [
-"recruiting",
-"agentic-ai",
-"governance",
-"audit",
-"SSE"
-]
-},
-{
-"id": "myriskagent",
-"name": "MyRiskAgent",
-"repo": "[https://github.com/aurelius-in/MyRiskAgent](https://github.com/aurelius-in/MyRiskAgent)",
-"summary": "Agentic risk analysis that ingests claims, filings, and OSINT to compute peer-normalized risk scores with outlier detection, SHAP-based explainability, and audit-ready evidence behind policy gates.",
-"why_it_exists": "Give risk and compliance teams a transparent way to rank counterparties and defend decisions.",
-"proof_points": [
-"SHAP feature attributions and narratives",
-"OPA policies for gated actions",
-"Evidence bundles for audit and review"
-],
-"stack": [
-"Python 3.11",
-"FastAPI",
-"Uvicorn",
-"SQLModel/SQLAlchemy",
-"DuckDB",
-"Postgres/pgvector",
-"Redis",
-"React",
-"TypeScript",
-"Vite",
-"Material UI",
-"TanStack Query",
-"ECharts",
-"OPA (Rego)",
-"Prometheus",
-"Grafana",
-"Docker Compose",
-"Alembic",
-"LangGraph (agents)"
-],
-"images": [
-"[https://raw.githubusercontent.com/aurelius-in/reliable-ai-network/main/mra-placeholder.png](https://raw.githubusercontent.com/aurelius-in/reliable-ai-network/main/mra-placeholder.png)"
-],
-"tags": [
-"agentic-ai",
-"risk",
-"governance",
-"compliance",
-"audit",
-"explainability",
-"shap",
-"osint",
-"documents",
-"retrieval",
-"vector-search",
-"pgvector",
-"duckdb",
-"reports",
-"observability",
-"prometheus",
-"grafana",
-"policy",
-"opa",
-"finance",
-"healthcare"
-]
-},
-{
-"id": "edgesight-qa",
-"name": "EdgeSight QA",
-"repo": "[https://github.com/aurelius-in/EdgeSight-QA](https://github.com/aurelius-in/EdgeSight-QA)",
-"summary": "Modular, containerized edge computer vision for factory QA: multi-camera ingest, on-device inference with ONNX Runtime and TensorRT, SCADA write-backs, and offline-safe logging with operator UI and metrics.",
-"why_it_exists": "Improve defect detection and traceability at the edge without adding fragile cloud dependencies.",
-"proof_points": [
-"OPC UA and MQTT integrations for plants",
-"Offline-first logging and retries",
-"Prometheus and Grafana observability"
-],
-"stack": [
-"FastAPI",
-"React",
-"Vite",
-"Material UI",
-"ONNX Runtime / TensorRT",
-"MQTT",
-"OPC UA",
-"Docker",
-"Kubernetes",
-"Prometheus",
-"Grafana"
-],
-"images": [
-"[https://aurelius-in.github.io/agentic-portfolio/images/esqa-preview.gif?v=1](https://aurelius-in.github.io/agentic-portfolio/images/esqa-preview.gif?v=1)",
-"[https://aurelius-in.github.io/agentic-portfolio/images/esqa-preview-poster.webp?v=1](https://aurelius-in.github.io/agentic-portfolio/images/esqa-preview-poster.webp?v=1)"
-],
-"tags": [
-"computer-vision",
-"edge",
-"industrial",
-"qa",
-"scada"
-]
-},
-{
-"id": "ace-lab",
-"name": "ACE Lab",
-"repo": "[https://github.com/aurelius-in/ACE-Lab](https://github.com/aurelius-in/ACE-Lab)",
-"summary": "Real-time WebGPU-first creative lab that blends agentic shader design, on-device image generation, and microservice video generation using AnimateDiff for motion and RIFE for interpolation, with generative fill, style transfer, and policy-safe WebM export via OPA in WASM.",
-"why_it_exists": "Let creators prototype visual ideas live in the browser while keeping governance in the loop.",
-"proof_points": [
-"WGSL shaders with WebGL2 fallback",
-"On-device processing for low latency",
-"Policy gates compiled to WASM"
-],
-"stack": [
-"Vite",
-"React",
-"TypeScript",
-"WebGPU/WGSL",
-"WebGL2/GLSL (fallback)",
-"Zustand",
-"Tiny-SDF",
-"Express",
-"AnimateDiff",
-"RIFE",
-"WASM (OPA)",
-"Playwright"
-],
-"images": [
-"[https://aurelius-in.github.io/agentic-portfolio/images/ace-lab-portfolio.webp?v=1](https://aurelius-in.github.io/agentic-portfolio/images/ace-lab-portfolio.webp?v=1)",
-"[https://aurelius-in.github.io/agentic-portfolio/images/ace-lab-desktop.png?v=1](https://aurelius-in.github.io/agentic-portfolio/images/ace-lab-desktop.png?v=1)"
-],
-"tags": [
-"agentic-ai",
-"webgpu",
-"creative",
-"shaders",
-"video",
-"animation",
-"diffusion",
-"realtime",
-"policy",
-"opa",
-"export"
-]
-}
-]
+  "owner": "aurelius-in",
+  "title": "Agentic AI Systems Showcase",
+  "contact": {
+    "email": "oliveraellison@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/oellison/"
+  },
+  "projects": [
+    {
+      "id": "health-navigator",
+      "name": "Agentic AI Health Navigator",
+      "repo": "https://github.com/aurelius-in/AI-Health-Navigator-for-Patients",
+      "summary": "Triage, provider match, personalized plans with multi-agent reasoning and memory.",
+      "stack": [
+        "FastAPI",
+        "React",
+        "TypeScript",
+        "PyTorch",
+        "PostgreSQL",
+        "Redis",
+        "ChromaDB",
+        "Kubernetes",
+        "Prometheus",
+        "Grafana"
+      ],
+      "images": [
+        "https://raw.githubusercontent.com/aurelius-in/AI-Health-Navigator-for-Patients/main/assets/screen1.png",
+        "https://raw.githubusercontent.com/aurelius-in/AI-Health-Navigator-for-Patients/main/assets/screen2.png",
+        "https://raw.githubusercontent.com/aurelius-in/AI-Health-Navigator-for-Patients/main/assets/screen3.png"
+      ],
+      "tags": [
+        "healthcare",
+        "navigation",
+        "agentic-ai"
+      ]
+    },
+    {
+      "id": "epiphany",
+      "name": "Epiphany",
+      "repo": "https://github.com/aurelius-in/Epiphany",
+      "summary": "Self-hosted full-stack diffusion suite for image and video generation with a Next.js UI, Express APIs, and FastAPI GPU workers—supporting SDXL (txt2img/img2img/inpainting/ControlNet), text-to-video, prompt enhancement, Safe→Research→NSFW modes, editing tools (upscale/bg-remove/face-restore), Redis + S3, and explainability (attention heatmaps + audit logs).",
+      "stack": [
+        "FastAPI",
+        "React",
+        "TypeScript",
+        "DuckDB",
+        "PostgreSQL/pgvector",
+        "OpenTelemetry"
+      ],
+      "images": [
+        "https://aurelius-in.github.io/agentic-portfolio/images/epiphany.webp",
+        "https://aurelius-in.github.io/agentic-portfolio/images/epiphany.png"
+      ],
+      "tags": [
+        "rag",
+        "insights",
+        "reports"
+      ]
+    },
+    {
+      "id": "perception-lab",
+      "name": "Perception Lab",
+      "repo": "https://github.com/aurelius-in/perception-lab",
+      "summary": "Interactive environment for exploring perception scenarios, running detection and fusion pipelines, monitoring performance metrics, and exporting evaluation reports.",
+      "stack": [
+        "React",
+        "TypeScript",
+        "Material UI",
+        "FastAPI",
+        "Python 3.11",
+        "Docker"
+      ],
+      "images": [
+        "https://aurelius-in.github.io/agentic-portfolio/images/detect-ani-1.gif?v=2",
+        "https://aurelius-in.github.io/agentic-portfolio/images/detect-ani-2.gif?v=2"
+      ],
+      "tags": [
+        "perception",
+        "multi-agent",
+        "evaluation",
+        "visualization"
+      ]
+    },
+    {
+      "id": "museagent",
+      "name": "MuseAgent",
+      "repo": "https://github.com/aurelius-in/MuseAgent",
+      "summary": "A modular multi-agent music intelligence platform that ingests tracks, extracts spectral features, generates embeddings, tags mood/genre/instrumentation, delivers explainable recommendations with visualizations, exports branded PDF reports, and includes optional enrichment and AI-powered music generation.",
+      "stack": [
+        "Python 3.11",
+        "FastAPI",
+        "React",
+        "TypeScript",
+        "Material UI",
+        "Librosa",
+        "scikit-learn",
+        "Docker"
+      ],
+      "images": [
+        "https://raw.githubusercontent.com/aurelius-in/MuseAgent/main/assets/ma-ui.gif"
+      ],
+      "tags": [
+        "music",
+        "recommendation",
+        "agentic-ai",
+        "embeddings",
+        "visualization"
+      ]
+    },
+    {
+      "id": "autoops-sentinel",
+      "name": "AutoOps Sentinel",
+      "repo": "https://github.com/aurelius-in/AutoOps-Sentinel",
+      "summary": "AIOps detection, forecasting, and safe auto-remediation with exec narratives.",
+      "stack": [
+        "FastAPI",
+        "React",
+        "TypeScript",
+        "Prometheus",
+        "Grafana",
+        "GitHub Actions"
+      ],
+      "images": [
+        "https://raw.githubusercontent.com/aurelius-in/AutoOps-Sentinel/main/aostab1.gif",
+        "https://raw.githubusercontent.com/aurelius-in/AutoOps-Sentinel/main/aostab2.gif",
+        "https://raw.githubusercontent.com/aurelius-in/AutoOps-Sentinel/main/aostab3.gif"
+      ],
+      "tags": [
+        "aiops",
+        "slo",
+        "automation"
+      ]
+    },
+    {
+      "id": "claims-triage",
+      "name": "Agentic Claims Triage AI",
+      "repo": "https://github.com/aurelius-in/Claims-Triage-AI",
+      "summary": "Claims intake, classification, risk, policy evaluation, and routing with explanations.",
+      "stack": [
+        "FastAPI",
+        "React",
+        "TypeScript",
+        "PostgreSQL",
+        "Redis"
+      ],
+      "images": [
+        "https://raw.githubusercontent.com/aurelius-in/Claims-Triage-AI/main/docs/images/claims-demo.gif"
+      ],
+      "tags": [
+        "insurance",
+        "healthcare",
+        "compliance"
+      ]
+    },
+    {
+      "id": "mindtrace",
+      "name": "Enterprise Wellness AI (MindTrace)",
+      "repo": "https://github.com/aurelius-in/MindTrace",
+      "summary": "Privacy-first wellness analytics, burnout risk, and recommendations.",
+      "stack": [
+        "FastAPI",
+        "React",
+        "TypeScript",
+        "PostgreSQL",
+        "Redis",
+        "ChromaDB/Pinecone"
+      ],
+      "images": [
+        "https://raw.githubusercontent.com/aurelius-in/MindTrace/main/assets/demo.gif"
+      ],
+      "tags": [
+        "workforce",
+        "wellness",
+        "privacy"
+      ]
+    },
+    {
+      "id": "ai-governance",
+      "name": "AI Governance Dashboard",
+      "repo": "https://github.com/aurelius-in/AI-Governance",
+      "summary": "LLM proxy with policies-as-code, safety filters, cost controls, and routing.",
+      "stack": [
+        "FastAPI",
+        "React",
+        "TypeScript",
+        "PostgreSQL",
+        "Redis",
+        "OPA"
+      ],
+      "images": [
+        "https://raw.githubusercontent.com/aurelius-in/AI-Governance/main/assets/screen1.png",
+        "https://raw.githubusercontent.com/aurelius-in/AI-Governance/main/assets/screen2.png"
+      ],
+      "tags": [
+        "governance",
+        "security",
+        "routing"
+      ]
+    },
+    {
+      "id": "aida",
+      "name": "AI Document Agent (aiDa)",
+      "repo": "https://github.com/aurelius-in/Smart-Document-Bot",
+      "summary": "Document ingestion, extraction, policy checks, rationale, and export bundles.",
+      "stack": [
+        "FastAPI",
+        "React",
+        "TypeScript",
+        "PostgreSQL",
+        "Redis",
+        "ChromaDB/Pinecone"
+      ],
+      "images": [
+        "https://raw.githubusercontent.com/aurelius-in/Smart-Document-Bot/main/tab1.gif",
+        "https://raw.githubusercontent.com/aurelius-in/Smart-Document-Bot/main/tab2.gif",
+        "https://raw.githubusercontent.com/aurelius-in/Smart-Document-Bot/main/tab3.gif",
+        "https://raw.githubusercontent.com/aurelius-in/Smart-Document-Bot/main/tab4.gif"
+      ],
+      "tags": [
+        "documents",
+        "compliance",
+        "retrieval"
+      ]
+    },
+    {
+      "id": "adops-flightdeck",
+      "name": "AdOps Flightdeck",
+      "repo": "https://github.com/aurelius-in/adops-flightdeck-multi-agent",
+      "summary": "Production-grade multi-agent AdOps Flightdeck that orchestrates AI agents for planning, creative generation & safety, pacing, anomaly response, attribution, and auditable reporting on AWS.",
+      "stack": [
+        "TypeScript",
+        "React",
+        "Fastify / LangGraphJS",
+        "AWS (Bedrock, S3, DynamoDB, OpenSearch, EventBridge, SQS, CloudWatch)",
+        "Docker",
+        "OpenTelemetry"
+      ],
+      "images": [
+        "https://raw.githubusercontent.com/aurelius-in/adops-flightdeck-multi-agent/main/assets/adops-demo.gif"
+      ],
+      "tags": [
+        "adops",
+        "agentic-ai",
+        "auditable",
+        "multi-agent",
+        "aws"
+      ]
+    },
+    {
+      "id": "high-volume-recruiter",
+      "name": "High-Volume Recruiter Agent",
+      "repo": "https://github.com/aurelius-in/high-volume-recruiter-ai-agent",
+      "summary": "End-to-end recruiter flow (outreach → consent → screening → scheduling → ATS) with a live ops UI, KPIs, and a signed, replayable audit trail. Demo/offline or real mode via adapters; capacity/SLA analytics and policy-checked messaging.",
+      "stack": [
+        "Python 3.11",
+        "FastAPI",
+        "React",
+        "TypeScript",
+        "Vite",
+        "Material UI",
+        "Recharts",
+        "SSE",
+        "Docker",
+        "Pytest"
+      ],
+      "images": [
+        "https://raw.githubusercontent.com/aurelius-in/high-volume-recruiter-ai-agent/main/hiretab1.gif",
+        "https://raw.githubusercontent.com/aurelius-in/high-volume-recruiter-ai-agent/main/hiretab2.gif",
+        "https://raw.githubusercontent.com/aurelius-in/high-volume-recruiter-ai-agent/main/hiretab3.gif"
+      ],
+      "tags": [
+        "recruiting",
+        "agentic-ai",
+        "governance",
+        "audit",
+        "SSE"
+      ]
+    },
+    {
+      "id": "myriskagent",
+      "name": "MyRiskAgent",
+      "repo": "https://github.com/aurelius-in/MyRiskAgent",
+      "summary": "Agentic risk analysis that ingests claims, filings, and OSINT to compute provider/company risk scores with peer-normalized outlier detection, SHAP explainability, and audit-ready evidence.",
+      "stack": [
+        "Python 3.11",
+        "FastAPI",
+        "Uvicorn",
+        "SQLModel/SQLAlchemy",
+        "DuckDB",
+        "Postgres/pgvector",
+        "Redis",
+        "React",
+        "TypeScript",
+        "Vite",
+        "Material UI",
+        "TanStack Query",
+        "ECharts",
+        "OPA (Rego)",
+        "Prometheus",
+        "Grafana",
+        "Docker Compose",
+        "Alembic",
+        "LangGraph (agents)"
+      ],
+      "images": [
+        "https://raw.githubusercontent.com/aurelius-in/reliable-ai-network/main/mra-placeholder.png"
+      ],
+      "tags": [
+        "agentic-ai",
+        "risk",
+        "governance",
+        "compliance",
+        "audit",
+        "explainability",
+        "shap",
+        "osint",
+        "documents",
+        "retrieval",
+        "vector-search",
+        "pgvector",
+        "duckdb",
+        "reports",
+        "observability",
+        "prometheus",
+        "grafana",
+        "policy",
+        "opa",
+        "finance",
+        "healthcare"
+      ]
+    },
+    {
+      "id": "edgesight-qa",
+      "name": "EdgeSight QA",
+      "repo": "https://github.com/aurelius-in/EdgeSight-QA",
+      "summary": "Modular, containerized edge computer-vision QA: multi-camera ingest → on-device inference → SCADA (Ignition) write-backs, with operator UI, metrics, and offline-safe logging.",
+      "stack": [
+        "FastAPI",
+        "React",
+        "Vite",
+        "Material UI",
+        "ONNX Runtime / TensorRT",
+        "MQTT",
+        "OPC UA",
+        "Docker",
+        "Kubernetes",
+        "Prometheus",
+        "Grafana"
+      ],
+      "images": [
+        "https://aurelius-in.github.io/agentic-portfolio/images/esqa-preview.gif?v=1",
+        "https://aurelius-in.github.io/agentic-portfolio/images/esqa-preview-poster.webp?v=1"
+      ],
+      "tags": [
+        "computer-vision",
+        "edge",
+        "industrial",
+        "qa",
+        "scada"
+      ]
+    },
+    {
+      "id": "ace-lab",
+      "name": "ACE Lab",
+      "repo": "https://github.com/aurelius-in/ACE-Lab",
+      "summary": "Agentic Creative Experience Lab is a real-time, WebGPU-first platform that blends agentic shader design, on-device image generation, and microservice video generation (AnimateDiff for motion, RIFE for interpolation), plus generative fill, style transfer, and policy-safe WebM export.",
+      "stack": [
+        "Vite",
+        "React",
+        "TypeScript",
+        "WebGPU/WGSL",
+        "WebGL2/GLSL (fallback)",
+        "Zustand",
+        "Tiny-SDF",
+        "Express",
+        "AnimateDiff",
+        "RIFE",
+        "WASM (OPA)",
+        "Playwright"
+      ],
+      "images": [
+        "https://aurelius-in.github.io/agentic-portfolio/images/ace-lab-portfolio.webp?v=1",
+        "https://aurelius-in.github.io/agentic-portfolio/images/ace-lab-desktop.png?v=1"
+      ],
+      "tags": [
+        "agentic-ai",
+        "webgpu",
+        "creative",
+        "shaders",
+        "video",
+        "animation",
+        "diffusion",
+        "realtime",
+        "policy",
+        "opa",
+        "export"
+      ]
+    }
+  ]
 }
