@@ -32,6 +32,7 @@ Contact: **oliveraellison@gmail.com** • [LinkedIn](https://www.linkedin.com/in
 * [Application Matrix](#application-matrix)
 * [Demo Matrix](#demo-matrix)
 * [Architecture One-Pagers](#architecture-one-pagers)
+* [RainRef](#rainref)
 * [License](#license)
 
 ---
@@ -300,6 +301,31 @@ Real-time WebGPU-first creative lab that blends agentic shader design, on-device
 
 ---
 
+### RainRef
+**Repo:** https://github.com/aurelius-in/RainRef
+
+**Summary**  
+An end-to-end AI support “Ref”: normalize tickets/chats/emails into **RefEvents**, draft grounded answers with **citations**, propose **safe actions** via declarative playbooks, run **OPA** policy gates before execution, write signed **receipts**, and emit **Product Signals** (bugs, frictions, requests, pricing, churn) to Jira/Linear/RainScout.
+
+**Use cases**
+- AI Support Copilot (answers with sources)
+- Known-issue autopatcher (safe actions + receipts)
+- Churn risk sweeps and objection handling
+- Weekly evidence packs for CS/Product
+
+**Tech stack**
+- **Backend:** FastAPI (Python 3.11), Postgres + **pgvector**, Azure Blob (Azurite dev), **LangGraph** flows, **OPA/Rego** policies, Langfuse, OpenTelemetry
+- **Frontend:** React + TypeScript + Vite
+- **Ops:** Docker Compose (dev/prod profiles), migrations & seed, smoke tests, Make targets
+
+**Screenshots**
+<p>
+  <img src="/images/rr_day.png" width="49%">
+  <img src="/images/rr_demo.gif" width="49%">
+</p>
+
+---
+
 ## Application Matrix
 
 | Project | Primary Domain | Core Agents | Signals and Models | Governance and Observability | Frontend |
@@ -317,26 +343,7 @@ Real-time WebGPU-first creative lab that blends agentic shader design, on-device
 | MyRiskAgent | Risk and compliance | Ingest, Score, Explain, Policy Gate, Report | SHAP, peer normalization, OSINT retrieval | OPA, evidence bundles, immutable logs | React/TS |
 | Perception Lab | Perception R&D | Detector, Fusion, Monitor, Evaluator | CV pipelines, COCO metrics, IDF1 | Audit-ready exports, Docker | React/TS |
 | ACE Lab | Real-time creative | Shader, Generator, Video, Policy Gate | WebGPU/WGSL, AnimateDiff, RIFE | OPA to WASM, export safety | React/Vite |
-
----
-
-## Demo Matrix
-
-| Project | Quick Path To Show Value | Safe Mode Toggle | Wow Moment |
-|---|---|---|---|
-| Health Navigator | Run symptom intake flow with 2 scenarios and show provider matching | Disable external calls, use seeded retrieval | Cross-agent memory recalls prior visit to refine plan |
-| AutoOps Sentinel | Replay a known incident, show forecast, trigger guarded remediation | Read-only mode for actions | Exec narrative quantifies cost avoided and MTTR delta |
-| Claims Triage | Upload a sample claim set, view routing rationale and policy checks | Offline retrieval bundle only | SHAP plot explains why two claims diverged |
-| MindTrace | Simulate anonymized weekly rollup with risk hotspots | Redacted PII and DP thresholds | Drilldown preserves privacy constraints while guiding action |
-| High-Volume Recruiter | Start outreach batch, watch SSE stream, schedule 2 interviews | Offline adapter with signed logs | Replay a candidate’s full interaction from the audit ledger |
-| AI Governance | Route prompts across two models with different policies | Sandbox policies file | Flip a policy switch and watch cost and safety metrics shift |
-| aiDa | Ingest a policy PDF and run risk questions | Local chunked retrieval only | Export an evidence bundle for audit in one click |
-| MuseAgent | Ingest 3 tracks, view features and similarity, export PDF | Deterministic seeds | Tag-aware playlist fit score surprises a skeptic |
-| AdOps Flightdeck | Run a creative safety check and pacing adjustment | Dry-run events only | Attribution agent explains anomaly with tracebacks |
-| EdgeSight QA | Play recorded line feed, see detections and SCADA writes | Offline queue only | Operator correction improves next-frame decision |
-| MyRiskAgent | Score 5 providers, open SHAP explanations | OSINT disabled, use cached | Evidence bundle compiles in seconds for review |
-| Perception Lab | Run two detectors on a clip, compare metrics | Local models only | Side-by-side mAP and IDF1 compare drives model choice |
-| ACE Lab | Live shader edit with video gen export | Policy level: Safe | WebGPU render updates in real time while exporting compliant WebM |
+| Support & CS Ops | Intake, Grounder, Action Planner, Policy Gate, Signalizer | BM25+pgvector retrieval, OPA receipts | React/Vite UI | 
 
 ---
 
