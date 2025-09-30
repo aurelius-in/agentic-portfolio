@@ -83,7 +83,7 @@ Agentic AIOps that ingests metrics and logs, detects anomalies, forecasts incide
 - **ML:** Z-score, IsolationForest, MAD, Prophet
 - **Ops:** Docker, GitHub Actions CI/CD, RBAC, Slack and Teams integration
 
-**Screenshots**
+**Demo**
 <p>
   <img src="https://raw.githubusercontent.com/aurelius-in/AutoOps-Sentinel/main/aostab1.gif" width="49%">
   <img src="https://raw.githubusercontent.com/aurelius-in/AutoOps-Sentinel/main/aostab2.gif" width="49%">
@@ -110,7 +110,7 @@ Agent-driven decision support for claims classification, risk scoring, routing, 
 - **AI/ML:** LLM and ML hybrid, SHAP explainability, retrieval, OPA for policies
 - **Frontend:** React, TypeScript; Prometheus and Grafana observability
 
-**Screenshots**
+**Demo**
 <p>
   <img src="https://raw.githubusercontent.com/aurelius-in/Claims-Triage-AI/main/docs/images/claims-demo.gif" width="49%">
 </p>
@@ -134,7 +134,7 @@ Enterprise wellness platform with five agents (Companion, Recommendation, Risk D
 - **Integrations:** Slack, Teams, HRIS, Outlook
 - **Ops:** Kubernetes and Helm, Prometheus and Grafana, OPA; differential privacy
 
-**Screenshots**
+**Demo**
 <p>
   <img src="https://raw.githubusercontent.com/aurelius-in/MindTrace/main/assets/demo.gif" width="49%">
 </p>
@@ -157,7 +157,7 @@ End-to-end recruiter flow (outreach → consent → screening → scheduling →
 - **Frontend:** React + Vite + Material UI, Recharts, i18n (EN, AR, ZH), dark mode; Ask panel with streaming
 - **Infra/QA:** Docker; Postgres-ready seams; pytest; structured logs and PII redaction
 
-**Screenshots**
+**Demo**
 <p>
   <img src="https://raw.githubusercontent.com/aurelius-in/high-volume-recruiter-ai-agent/main/hiretab1.gif" width="49%">
   <img src="https://raw.githubusercontent.com/aurelius-in/high-volume-recruiter-ai-agent/main/hiretab2.gif" width="49%">
@@ -318,10 +318,9 @@ An end-to-end AI support “Ref”: normalize tickets/chats/emails into **RefEve
 - **Frontend:** React + TypeScript + Vite
 - **Ops:** Docker Compose (dev/prod profiles), migrations & seed, smoke tests, Make targets
 
-**Screenshots**
+**Demo**
 <p>
   <img src="docs/images/rr_demo.gif" width="49%">
-  <img src="/images/rr_demo.gif" width="49%">
 </p>
 
 ---
