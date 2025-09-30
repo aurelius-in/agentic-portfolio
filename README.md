@@ -281,7 +281,7 @@ FastAPI (Python 3.11), SQLModel/SQLAlchemy, DuckDB, Postgres/pgvector, Redis, Re
 **Summary**  
 Interactive environment for exploring perception scenarios, running detection and fusion pipelines, monitoring performance metrics, and exporting evaluation reports.
 
-**Screenshots**
+**Demo**
 <p>
   <img src="https://aurelius-in.github.io/agentic-portfolio/images/detect-ani-1.gif?v=2" width="60%">
 </p>
