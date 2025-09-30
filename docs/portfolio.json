@@ -350,8 +350,8 @@
     "Docker Compose"
   ],
   "images": [
-    "/images/rr_day.png",
-    "/images/rr_demo.webp"
+    "https://aurelius-in.github.io/agentic-portfolio/images/rr_day.png",
+    "https://aurelius-in.github.io/agentic-portfolio/images/rr_demo.webp"
   ],
   "tags": [
     "support",
