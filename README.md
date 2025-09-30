@@ -320,7 +320,7 @@ An end-to-end AI support “Ref”: normalize tickets/chats/emails into **RefEve
 
 **Screenshots**
 <p>
-  <img src="docs/images/rr_day.png" width="49%">
+  <img src="docs/images/rr_demo.gif" width="49%">
   <img src="/images/rr_demo.gif" width="49%">
 </p>
 
