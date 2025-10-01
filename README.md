@@ -1,6 +1,6 @@
 # Agentic AI Systems Showcase
 
-##### All software in this portfolio was designed and built by Oliver Ellison d/b/a Reliable AI Network, LLC ("RAIN").
+##### All software in this portfolio was designed and built by Oliver Ellison d/b/a Reliable AI Network, Inc. ("RAIN").
 
 A single place to explore production-grade agentic AI work. Each project includes a short summary, use cases, tech stack, and screenshots. Built to be skimmed by engineering leaders, execs, and recruiters.
 
